@@ -1,0 +1,9 @@
+{
+  "manifest_version": 1,
+  "dataset_path": "dataset/irreversibility_challenge_v1.jsonl",
+  "dataset_version": "irreversibility_challenge_v1",
+  "dataset_sha256": "2cc09123890b34ce9c1c9002fbc596ccb3f782bad5315208b3609c68181cef95",
+  "seed": 20261125,
+  "split_directory": "split_seed_20261125",
+  "split_role": "challenge_train_test_evaluation; not a replacement for v3 splits"
+}

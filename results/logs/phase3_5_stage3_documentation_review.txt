@@ -1,0 +1,12 @@
+Phase 3.5 Stage 3 documentation review
+======================================
+
+Status: PASS (manual source/document review; no test execution required)
+
+- Email undo is documented as static availability; the project has no simulated clock or expiry.
+- Legacy v3 recall_window_seconds wording is explicitly described as non-operative metadata.
+- The v3 dataset and frozen split artifacts were not edited.
+- The v3 dataset guide now points to the three frozen canonical-grouped split seeds.
+- New challenge descriptions will avoid implying a real countdown.
+
+Limitation: v3 state_text still contains duration phrases because changing frozen model inputs would alter the original dataset. Interpret v3 email examples under the documented static-availability scope.

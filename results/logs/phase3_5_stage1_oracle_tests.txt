@@ -1,0 +1,78 @@
+.\.venv\Scripts\python.exe : test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) ... 
+At line:16 char:1
++ .\.venv\Scripts\python.exe -B -m unittest tests.test_phase35_referenc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_reference_..._outcomes) ... :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) 
+(action='edit_file') ... FAIL
+  test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) 
+(action='delete_file') ... FAIL
+  test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) 
+(action='send_email') ... FAIL
+  test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) 
+(action='transfer_money') ... FAIL
+test_reference_oracle_rejects_incorrect_expected_label 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_rejects_incorrect_expected_label) ... 
+ok
+test_reference_oracle_rejects_incorrect_final_state 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_rejects_incorrect_final_state) ... ok
+
+======================================================================
+FAIL: test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) 
+(action='edit_file')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "%USERPROFILE%\ADNN_Irreversibility_Project\tests\test_phase35_reference_oracle.py", line 134, in 
+test_reference_oracle_accepts_actual_action_outcomes
+    self.assertTrue(result["passed"], result["errors"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ['label disagrees with independent reference outcome']
+
+======================================================================
+FAIL: test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) 
+(action='delete_file')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "%USERPROFILE%\ADNN_Irreversibility_Project\tests\test_phase35_reference_oracle.py", line 134, in 
+test_reference_oracle_accepts_actual_action_outcomes
+    self.assertTrue(result["passed"], result["errors"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ['label disagrees with independent reference outcome']
+
+======================================================================
+FAIL: test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) 
+(action='send_email')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "%USERPROFILE%\ADNN_Irreversibility_Project\tests\test_phase35_reference_oracle.py", line 134, in 
+test_reference_oracle_accepts_actual_action_outcomes
+    self.assertTrue(result["passed"], result["errors"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ['label disagrees with independent reference outcome']
+
+======================================================================
+FAIL: test_reference_oracle_accepts_actual_action_outcomes 
+(tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) 
+(action='transfer_money')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "%USERPROFILE%\ADNN_Irreversibility_Project\tests\test_phase35_reference_oracle.py", line 134, in 
+test_reference_oracle_accepts_actual_action_outcomes
+    self.assertTrue(result["passed"], result["errors"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ['label disagrees with independent reference outcome']
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+FAILED (failures=4)

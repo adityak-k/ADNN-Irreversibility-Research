@@ -1,0 +1,4 @@
+# Optional model experiment dependencies. Install a PyTorch CPU or CUDA build
+# separately from the official PyTorch selector for your operating system.
+transformers==5.23.0
+accelerate==1.16.0

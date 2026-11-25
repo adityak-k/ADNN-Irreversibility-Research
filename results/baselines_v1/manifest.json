@@ -1,0 +1,59 @@
+{
+  "experiment": "phase4_cpu_baselines_v1",
+  "v3_dataset_path": "dataset\\irreversibility_dataset_v3.jsonl",
+  "v3_dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "challenge_dataset_path": "dataset\\irreversibility_challenge_v1.jsonl",
+  "challenge_dataset_sha256": "2cc09123890b34ce9c1c9002fbc596ccb3f782bad5315208b3609c68181cef95",
+  "split_manifest_path": "dataset\\experimental_splits_v1\\manifest.json",
+  "seeds": [
+    20261120,
+    20261121,
+    20261122
+  ],
+  "baselines": [
+    "majority",
+    "action_name",
+    "tfidf",
+    "shuffled_label"
+  ],
+  "split_counts": {
+    "20261120": {
+      "training": 1920,
+      "testing": 480
+    },
+    "20261121": {
+      "training": 1920,
+      "testing": 480
+    },
+    "20261122": {
+      "training": 1920,
+      "testing": 480
+    }
+  },
+  "external_challenge_training_policy": "v3 training IDs only; all 240 challenge examples are evaluation-only",
+  "tfidf": {
+    "ngram_range": [
+      1,
+      1
+    ],
+    "lowercase": true,
+    "min_df": 1
+  },
+  "logistic_regression": {
+    "C": 1.0,
+    "max_iter": 1000,
+    "solver": "lbfgs",
+    "random_state": 0
+  },
+  "shuffled_label_seed_offset": 900000,
+  "majority_tie_break": [
+    "reversible",
+    "partially_reversible",
+    "irreversible"
+  ],
+  "model_input_fields": [
+    "environment",
+    "state_text",
+    "action_text"
+  ]
+}

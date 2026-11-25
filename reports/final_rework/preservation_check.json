@@ -1,0 +1,13 @@
+{
+  "prechange_protected_file_count": 101,
+  "unchanged_protected_files": 101,
+  "changed_protected_files": [],
+  "missing_protected_files": [],
+  "prechange_source_backups": 8,
+  "backup_path_mismatches": [],
+  "v3_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "challenge_sha256": "2cc09123890b34ce9c1c9002fbc596ccb3f782bad5315208b3609c68181cef95",
+  "split_manifest_sha256": "eed7bcc8bb566d7d7929f96d9b217a62f795e2a9636e1797f5c8fe58846cd7e7",
+  "baselines_v1_manifest_sha256": "4b0cef2761cb5630da9e9964af498ddd4411f2b4e9c7050609932ff8054d49a0",
+  "passed": true
+}

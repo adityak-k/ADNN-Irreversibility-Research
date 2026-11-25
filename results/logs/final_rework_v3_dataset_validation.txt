@@ -1,0 +1,84 @@
+{
+  "dataset": "C:\\Users\\Aditya Kadapa\\ADNN_Irreversibility_Project\\dataset\\irreversibility_dataset_v3.jsonl",
+  "total_examples": 2400,
+  "cross_tab": {
+    "delete_file": {
+      "irreversible": 200,
+      "partially_reversible": 200,
+      "reversible": 200
+    },
+    "edit_file": {
+      "irreversible": 200,
+      "partially_reversible": 200,
+      "reversible": 200
+    },
+    "send_email": {
+      "irreversible": 200,
+      "partially_reversible": 200,
+      "reversible": 200
+    },
+    "transfer_money": {
+      "irreversible": 200,
+      "partially_reversible": 200,
+      "reversible": 200
+    }
+  },
+  "class_counts": {
+    "irreversible": 800,
+    "partially_reversible": 800,
+    "reversible": 800
+  },
+  "action_counts": {
+    "delete_file": 600,
+    "edit_file": 600,
+    "send_email": 600,
+    "transfer_money": 600
+  },
+  "unique_ids": 2400,
+  "pair_count": 720,
+  "pair_label_combinations": {
+    "irreversible / partially_reversible": 240,
+    "irreversible / reversible": 240,
+    "partially_reversible / reversible": 240
+  },
+  "pairs_by_action": {
+    "delete_file": {
+      "irreversible / partially_reversible": 60,
+      "irreversible / reversible": 60,
+      "partially_reversible / reversible": 60
+    },
+    "edit_file": {
+      "irreversible / partially_reversible": 60,
+      "irreversible / reversible": 60,
+      "partially_reversible / reversible": 60
+    },
+    "send_email": {
+      "irreversible / partially_reversible": 60,
+      "irreversible / reversible": 60,
+      "partially_reversible / reversible": 60
+    },
+    "transfer_money": {
+      "irreversible / partially_reversible": 60,
+      "irreversible / reversible": 60,
+      "partially_reversible / reversible": 60
+    }
+  },
+  "paired_examples": 1440,
+  "paired_percentage": 60.0,
+  "unique_model_inputs": 2399,
+  "duplicate_model_input_groups": 1,
+  "conflicting_duplicate_input_groups": 0,
+  "unique_state_descriptions": 2399,
+  "normalized_wording_patterns": 1319,
+  "wording_template_groups": 96,
+  "rows_per_wording_template": {
+    "min": 13,
+    "median": 25,
+    "max": 41
+  },
+  "scenario_groups": 1665,
+  "canonical_leakage_groups": 1664,
+  "independent_examples_checked": 2400,
+  "errors": [],
+  "passed": true
+}

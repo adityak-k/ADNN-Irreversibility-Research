@@ -1,0 +1,34 @@
+{
+  "count": 480,
+  "labels": [
+    "reversible",
+    "partially_reversible",
+    "irreversible"
+  ],
+  "accuracy": 0.9979166666666667,
+  "balanced_accuracy": 0.9979166666666667,
+  "macro_precision": 0.9979296066252589,
+  "macro_recall": 0.9979166666666667,
+  "macro_f1": 0.997916646321416,
+  "confusion_matrix": [
+    [
+      160,
+      0,
+      0
+    ],
+    [
+      0,
+      160,
+      0
+    ],
+    [
+      1,
+      0,
+      159
+    ]
+  ],
+  "layer": 11,
+  "control": false,
+  "train_examples": 1920,
+  "test_examples": 480
+}

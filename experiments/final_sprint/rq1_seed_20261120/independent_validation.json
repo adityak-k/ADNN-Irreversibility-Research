@@ -1,0 +1,231 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-11-25T06:53:42.122876+00:00",
+  "dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "split_seed": 20261120,
+  "training_examples": 1920,
+  "testing_examples": 480,
+  "train_representation_shards": 240,
+  "test_representation_shards": 60,
+  "representations_per_example": [
+    29,
+    1536
+  ],
+  "representation_dtype": "float16",
+  "layers_independently_recalculated": [
+    {
+      "layer": 0,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 1,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 2,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 3,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 4,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 5,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 6,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 7,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 8,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 9,
+      "accuracy": 0.9958333333333333,
+      "balanced_accuracy": 0.9958333333333332,
+      "macro_f1": 0.9958331705665585,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 10,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 11,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 12,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 13,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 14,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 15,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 16,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 17,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 18,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 19,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 20,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 21,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 22,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 23,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 24,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 25,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 26,
+      "accuracy": 0.9958333333333333,
+      "balanced_accuracy": 0.9958333333333332,
+      "macro_f1": 0.9958331705665585,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 27,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    },
+    {
+      "layer": 28,
+      "accuracy": 0.9979166666666667,
+      "balanced_accuracy": 0.9979166666666667,
+      "macro_f1": 0.997916646321416,
+      "prediction_ids_verified": 480
+    }
+  ],
+  "split_group_counts": {
+    "train": 1361,
+    "test": 303
+  },
+  "checks": [
+    "all train and test representation IDs and labels match frozen split",
+    "representations are FP16 with 29 outputs x 1536 hidden values",
+    "all 29 prediction files have every test ID exactly once",
+    "saved true labels match v3 labels and prediction records contain no evaluation-only fields",
+    "accuracy, balanced accuracy, macro precision/recall/F1 and confusion matrices recalculated directly from predictions"
+  ]
+}

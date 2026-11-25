@@ -1,0 +1,21 @@
+{
+  "status": "in_progress",
+  "experiment": "RQ2_direct_answer_subset",
+  "model": "Qwen2.5-1.5B-Instruct",
+  "model_path": "C:\\ADNN_MODELS\\Qwen2.5-1.5B-Instruct",
+  "dataset": "irreversibility_dataset_v3",
+  "dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "split_seed": 20261120,
+  "subset_seed": 20262025,
+  "subset_selection": "10 seeded examples per action/class cell from frozen test partition",
+  "example_count": 120,
+  "input_fields": [
+    "environment",
+    "state_text",
+    "action_text"
+  ],
+  "max_new_tokens": 40,
+  "do_sample": false,
+  "ground_truth_in_prompt": false,
+  "probe_comparison": "Layer 28 on the exact same selected example IDs"
+}

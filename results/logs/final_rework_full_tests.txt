@@ -1,0 +1,118 @@
+test_action_text_tfidf_reads_only_action_text (tests.test_final_rework.FinalReworkTests.test_action_text_tfidf_reads_only_action_text) ... ok
+test_all_historical_generators_refuse_existing_paths (tests.test_final_rework.FinalReworkTests.test_all_historical_generators_refuse_existing_paths) ... ok
+test_answer_parser_and_metric_helpers (tests.test_final_rework.FinalReworkTests.test_answer_parser_and_metric_helpers) ... ok
+test_caution_summary_uses_pre_action_observables (tests.test_final_rework.FinalReworkTests.test_caution_summary_uses_pre_action_observables) ... ok
+test_independent_saved_result_metric_calculator (tests.test_final_rework.FinalReworkTests.test_independent_saved_result_metric_calculator) ... ok
+test_legacy_generator_import_and_build_do_not_write_dataset (tests.test_final_rework.FinalReworkTests.test_legacy_generator_import_and_build_do_not_write_dataset) ... ok
+test_probe_training_rejects_wrong_representation_shape (tests.test_final_rework.FinalReworkTests.test_probe_training_rejects_wrong_representation_shape) ... ok
+test_prompt_and_agent_task_use_only_approved_model_fields (tests.test_final_rework.FinalReworkTests.test_prompt_and_agent_task_use_only_approved_model_fields) ... ok
+test_shuffle_is_seeded_and_preserves_class_counts (tests.test_final_rework.FinalReworkTests.test_shuffle_is_seeded_and_preserves_class_counts) ... ok
+test_shuffle_seeds_are_fixed_and_have_100_repetitions_per_split (tests.test_final_rework.FinalReworkTests.test_shuffle_seeds_are_fixed_and_have_100_repetitions_per_split) ... ok
+test_training_vectorizer_never_fits_evaluation_text (tests.test_final_rework.FinalReworkTests.test_training_vectorizer_never_fits_evaluation_text) ... ok
+test_dataset_is_balanced_for_each_action_and_label (tests.test_phase32_dataset_quality.Phase32DatasetQualityTests.test_dataset_is_balanced_for_each_action_and_label) ... ok
+test_duplicate_prompt_detector_groups_identical_observations (tests.test_phase32_dataset_quality.Phase32DatasetQualityTests.test_duplicate_prompt_detector_groups_identical_observations) ... ok
+test_genuine_partial_file_recovery_retains_shared_version_content (tests.test_phase32_dataset_quality.Phase32DatasetQualityTests.test_genuine_partial_file_recovery_retains_shared_version_content) ... ok
+test_independent_checker_rejects_deliberately_incorrect_label (tests.test_phase32_dataset_quality.Phase32DatasetQualityTests.test_independent_checker_rejects_deliberately_incorrect_label) ... ok
+test_model_input_is_exactly_the_whitelist (tests.test_phase32_dataset_quality.Phase32DatasetQualityTests.test_model_input_is_exactly_the_whitelist) ... ok
+test_pairs_hold_scenario_constant_and_change_only_recovery_condition (tests.test_phase32_dataset_quality.Phase32DatasetQualityTests.test_pairs_hold_scenario_constant_and_change_only_recovery_condition) ... ok
+test_partial_email_correction_is_claim_linked_and_separately_delivered (tests.test_phase32_dataset_quality.Phase32DatasetQualityTests.test_partial_email_correction_is_claim_linked_and_separately_delivered) ... ok
+test_all_records_match_independent_reference_outcomes (tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_all_records_match_independent_reference_outcomes) ... ok
+test_every_action_template_occurs_with_all_labels (tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_every_action_template_occurs_with_all_labels) ... ok
+test_generator_refuses_to_overwrite_existing_dataset (tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_generator_refuses_to_overwrite_existing_dataset) ... ok
+test_model_input_is_pre_action_whitelist_and_has_no_explicit_label_words (tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_model_input_is_pre_action_whitelist_and_has_no_explicit_label_words) ... ok
+test_pairs_change_only_the_recovery_condition (tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_pairs_change_only_the_recovery_condition) ... ok
+test_size_balance_and_unique_ids (tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_size_balance_and_unique_ids) ... ok
+test_reference_oracle_accepts_actual_action_outcomes (tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_accepts_actual_action_outcomes) ... ok
+test_reference_oracle_agrees_with_every_frozen_v3_outcome (tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_agrees_with_every_frozen_v3_outcome) ... ok
+test_reference_oracle_rejects_incorrect_expected_label (tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_rejects_incorrect_expected_label) ... ok
+test_reference_oracle_rejects_incorrect_final_state (tests.test_phase35_reference_oracle.ReferenceOracleTests.test_reference_oracle_rejects_incorrect_final_state) ... ok
+test_email_id_cannot_be_reused_after_delivery (tests.test_phase35_sandbox_edges.SandboxEdgeCaseTests.test_email_id_cannot_be_reused_after_delivery) ... ok
+test_invalid_transfer_amounts_do_not_change_balances (tests.test_phase35_sandbox_edges.SandboxEdgeCaseTests.test_invalid_transfer_amounts_do_not_change_balances) ... ok
+test_recovery_after_third_call_is_not_invoked (tests.test_phase35_sandbox_edges.SandboxEdgeCaseTests.test_recovery_after_third_call_is_not_invoked) ... ok
+test_recovery_can_succeed_on_third_call (tests.test_phase35_sandbox_edges.SandboxEdgeCaseTests.test_recovery_can_succeed_on_third_call) ... ok
+test_refund_percentage_boundaries_and_invalid_values (tests.test_phase35_sandbox_edges.SandboxEdgeCaseTests.test_refund_percentage_boundaries_and_invalid_values) ... ok
+test_repeated_correction_for_same_claim_is_rejected (tests.test_phase35_sandbox_edges.SandboxEdgeCaseTests.test_repeated_correction_for_same_claim_is_rejected) ... ok
+test_restore_file_does_not_overwrite_existing_destination (tests.test_phase35_sandbox_edges.SandboxEdgeCaseTests.test_restore_file_does_not_overwrite_existing_destination) ... ok
+test_snapshot_restore_keeps_and_appends_audit_history (tests.test_phase35_sandbox_edges.SandboxEdgeCaseTests.test_snapshot_restore_keeps_and_appends_audit_history) ... ok
+test_action_name_model_uses_only_action_and_train_labels (tests.test_phase4_baselines.BaselineRunnerTests.test_action_name_model_uses_only_action_and_train_labels) ... ok
+test_evaluation_records_class_and_action_metrics (tests.test_phase4_baselines.BaselineRunnerTests.test_evaluation_records_class_and_action_metrics) ... ok
+test_majority_tie_break_is_fixed (tests.test_phase4_baselines.BaselineRunnerTests.test_majority_tie_break_is_fixed) ... ok
+test_projection_rejects_rows_without_allowed_fields (tests.test_phase4_baselines.BaselineRunnerTests.test_projection_rejects_rows_without_allowed_fields) ... ok
+test_saved_predictions_preserve_ids_and_true_labels (tests.test_phase4_baselines.BaselineRunnerTests.test_saved_predictions_preserve_ids_and_true_labels) ... ok
+test_split_loader_checks_coverage_and_keeps_groups_intact (tests.test_phase4_baselines.BaselineRunnerTests.test_split_loader_checks_coverage_and_keeps_groups_intact) ... ok
+test_tfidf_and_shuffled_control_fit_and_predict (tests.test_phase4_baselines.BaselineRunnerTests.test_tfidf_and_shuffled_control_fit_and_predict) ... ok
+test_delete_recycle_bin_matched_pair (tests.test_reversibility_ground_truth.ReversibilityGroundTruthTests.test_delete_recycle_bin_matched_pair) ... ok
+test_edit_backup_matched_pair (tests.test_reversibility_ground_truth.ReversibilityGroundTruthTests.test_edit_backup_matched_pair) ... ok
+test_email_cancellation_is_reversal_but_delivery_is_not (tests.test_reversibility_ground_truth.ReversibilityGroundTruthTests.test_email_cancellation_is_reversal_but_delivery_is_not) ... ok
+test_generic_email_followup_is_not_accepted_as_recovery (tests.test_reversibility_ground_truth.ReversibilityGroundTruthTests.test_generic_email_followup_is_not_accepted_as_recovery) ... ok
+test_transfer_cancellation_and_settlement_are_mutually_exclusive (tests.test_reversibility_ground_truth.ReversibilityGroundTruthTests.test_transfer_cancellation_and_settlement_are_mutually_exclusive) ... ok
+test_transfer_cannot_be_settled_twice_or_refunded_twice (tests.test_reversibility_ground_truth.ReversibilityGroundTruthTests.test_transfer_cannot_be_settled_twice_or_refunded_twice) ... ok
+test_transfer_invalid_transitions_preserve_balances_and_log_attempts (tests.test_reversibility_ground_truth.ReversibilityGroundTruthTests.test_transfer_invalid_transitions_preserve_balances_and_log_attempts) ... ok
+test_transfer_refund_levels_are_based_on_both_balances (tests.test_reversibility_ground_truth.ReversibilityGroundTruthTests.test_transfer_refund_levels_are_based_on_both_balances) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 1.180s
+
+OK
+TEST 1: Creating an email
+Email draft created
+
+TEST 2: Sending an email with undo enabled
+Email sent
+
+TEST 3: Recalling an email
+Email recalled
+
+TEST 4: Sending an email without undo
+Email cannot be recalled
+
+TEST 5: Making a refundable money transfer
+Money transferred
+
+TEST 6: Receiving a partial refund
+Refund completed
+Wallet balance: 9800.0
+
+TEST 7: Making a non-refundable transfer
+Money transferred
+
+TEST 8: Trying to refund a non-refundable transfer
+Transfer cannot be refunded
+
+ALL EMAIL AND WALLET TESTS PASSED
+TEST 1: Creating a file
+File created
+
+TEST 2: Editing a file
+File edited
+
+TEST 3: Restoring a backup
+Backup restored
+
+TEST 4: Deleting a file with recycle bin enabled
+File deleted
+
+TEST 5: Restoring a deleted file
+File restored
+
+TEST 6: Deleting a file without recycle bin
+File deleted
+
+TEST 7: Saving and restoring environment state
+Environment state restored successfully
+
+ALL TESTS PASSED
+TEST 1: Full balance restoration with retained audit history
+Wallet balance: 10000.0
+BALANCES RESTORED; AUDIT HISTORY RETAINED; SETTLEMENT COMMITMENT REMAINS; CLASSIFICATION: PARTIAL
+
+TEST 2: Partially reversible transfer
+Wallet balance: 9800.0
+PARTIAL REFUND PASSED
+
+TEST 3: Irreversible transfer
+Refund result: Transfer cannot be refunded
+Wallet balance: 9000
+NO REFUND PASSED
+
+ALL REFUND LEVEL TESTS PASSED

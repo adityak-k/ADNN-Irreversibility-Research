@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#18212b}.axis{stroke:#59636e;stroke-width:1}.grid{stroke:#d8dde3;stroke-width:1}.score{fill:none;stroke:#1769aa;stroke-width:3}.err{stroke:#1769aa;stroke-width:1.5}</style>
+<text x="600" y="32" text-anchor="middle" font-size="22" font-weight="bold">Qwen2.5-1.5B-Instruct linear probes across three frozen splits</text>
+<text x="600" y="66" text-anchor="middle" font-size="17">Balanced accuracy by layer (mean +/- population SD)</text>
+<line class="grid" x1="95" y1="350.0" x2="1130" y2="350.0"/>
+<text x="81" y="355.0" text-anchor="end" font-size="12">0.0</text>
+<line class="grid" x1="95" y1="298.0" x2="1130" y2="298.0"/>
+<text x="81" y="303.0" text-anchor="end" font-size="12">0.2</text>
+<line class="grid" x1="95" y1="246.0" x2="1130" y2="246.0"/>
+<text x="81" y="251.0" text-anchor="end" font-size="12">0.4</text>
+<line class="grid" x1="95" y1="194.0" x2="1130" y2="194.0"/>
+<text x="81" y="199.0" text-anchor="end" font-size="12">0.6</text>
+<line class="grid" x1="95" y1="142.0" x2="1130" y2="142.0"/>
+<text x="81" y="147.0" text-anchor="end" font-size="12">0.8</text>
+<line class="grid" x1="95" y1="90.0" x2="1130" y2="90.0"/>
+<text x="81" y="95.0" text-anchor="end" font-size="12">1.0</text>
+<line class="axis" x1="95" y1="90" x2="95" y2="350"/>
+<line class="axis" x1="95" y1="350" x2="1130" y2="350"/>
+<line class="err" x1="95.0" y1="263.3" x2="95.0" y2="263.3"/>
+<line class="err" x1="92.0" y1="263.3" x2="98.0" y2="263.3"/>
+<line class="err" x1="92.0" y1="263.3" x2="98.0" y2="263.3"/>
+<circle cx="95.0" cy="263.3" r="3.2" fill="#1769aa"/>
+<text x="95.0" y="368" text-anchor="middle" font-size="10">0</text>
+<line class="err" x1="132.0" y1="90.0" x2="132.0" y2="90.9"/>
+<line class="err" x1="129.0" y1="90.0" x2="135.0" y2="90.0"/>
+<line class="err" x1="129.0" y1="90.9" x2="135.0" y2="90.9"/>
+<circle cx="132.0" cy="90.4" r="3.2" fill="#1769aa"/>
+<line class="err" x1="168.9" y1="90.0" x2="168.9" y2="91.4"/>
+<line class="err" x1="165.9" y1="90.0" x2="171.9" y2="90.0"/>
+<line class="err" x1="165.9" y1="91.4" x2="171.9" y2="91.4"/>
+<circle cx="168.9" cy="90.7" r="3.2" fill="#1769aa"/>
+<text x="168.9" y="368" text-anchor="middle" font-size="10">2</text>
+<line class="err" x1="205.9" y1="90.1" x2="205.9" y2="91.0"/>
+<line class="err" x1="202.9" y1="90.1" x2="208.9" y2="90.1"/>
+<line class="err" x1="202.9" y1="91.0" x2="208.9" y2="91.0"/>
+<circle cx="205.9" cy="90.5" r="3.2" fill="#1769aa"/>
+<line class="err" x1="242.9" y1="90.0" x2="242.9" y2="90.0"/>
+<line class="err" x1="239.9" y1="90.0" x2="245.9" y2="90.0"/>
+<line class="err" x1="239.9" y1="90.0" x2="245.9" y2="90.0"/>
+<circle cx="242.9" cy="90.0" r="3.2" fill="#1769aa"/>
+<text x="242.9" y="368" text-anchor="middle" font-size="10">4</text>
+<line class="err" x1="279.8" y1="90.0" x2="279.8" y2="90.4"/>
+<line class="err" x1="276.8" y1="90.0" x2="282.8" y2="90.0"/>
+<line class="err" x1="276.8" y1="90.4" x2="282.8" y2="90.4"/>
+<circle cx="279.8" cy="90.2" r="3.2" fill="#1769aa"/>
+<line class="err" x1="316.8" y1="90.0" x2="316.8" y2="90.9"/>
+<line class="err" x1="313.8" y1="90.0" x2="319.8" y2="90.0"/>
+<line class="err" x1="313.8" y1="90.9" x2="319.8" y2="90.9"/>
+<circle cx="316.8" cy="90.4" r="3.2" fill="#1769aa"/>
+<text x="316.8" y="368" text-anchor="middle" font-size="10">6</text>
+<line class="err" x1="353.8" y1="90.8" x2="353.8" y2="91.8"/>
+<line class="err" x1="350.8" y1="90.8" x2="356.8" y2="90.8"/>
+<line class="err" x1="350.8" y1="91.8" x2="356.8" y2="91.8"/>
+<circle cx="353.8" cy="91.3" r="3.2" fill="#1769aa"/>
+<line class="err" x1="390.7" y1="90.0" x2="390.7" y2="92.3"/>
+<line class="err" x1="387.7" y1="90.0" x2="393.7" y2="90.0"/>
+<line class="err" x1="387.7" y1="92.3" x2="393.7" y2="92.3"/>
+<circle cx="390.7" cy="91.1" r="3.2" fill="#1769aa"/>
+<text x="390.7" y="368" text-anchor="middle" font-size="10">8</text>
+<line class="err" x1="427.7" y1="91.1" x2="427.7" y2="92.5"/>
+<line class="err" x1="424.7" y1="91.1" x2="430.7" y2="91.1"/>
+<line class="err" x1="424.7" y1="92.5" x2="430.7" y2="92.5"/>
+<circle cx="427.7" cy="91.8" r="3.2" fill="#1769aa"/>
+<line class="err" x1="464.6" y1="90.1" x2="464.6" y2="90.6"/>
+<line class="err" x1="461.6" y1="90.1" x2="467.6" y2="90.1"/>
+<line class="err" x1="461.6" y1="90.6" x2="467.6" y2="90.6"/>
+<circle cx="464.6" cy="90.4" r="3.2" fill="#1769aa"/>
+<text x="464.6" y="368" text-anchor="middle" font-size="10">10</text>
+<line class="err" x1="501.6" y1="90.5" x2="501.6" y2="90.5"/>
+<line class="err" x1="498.6" y1="90.5" x2="504.6" y2="90.5"/>
+<line class="err" x1="498.6" y1="90.5" x2="504.6" y2="90.5"/>
+<circle cx="501.6" cy="90.5" r="3.2" fill="#1769aa"/>
+<line class="err" x1="538.6" y1="90.0" x2="538.6" y2="90.4"/>
+<line class="err" x1="535.6" y1="90.0" x2="541.6" y2="90.0"/>
+<line class="err" x1="535.6" y1="90.4" x2="541.6" y2="90.4"/>
+<circle cx="538.6" cy="90.2" r="3.2" fill="#1769aa"/>
+<text x="538.6" y="368" text-anchor="middle" font-size="10">12</text>
+<line class="err" x1="575.5" y1="90.5" x2="575.5" y2="91.0"/>
+<line class="err" x1="572.5" y1="90.5" x2="578.5" y2="90.5"/>
+<line class="err" x1="572.5" y1="91.0" x2="578.5" y2="91.0"/>
+<circle cx="575.5" cy="90.7" r="3.2" fill="#1769aa"/>
+<line class="err" x1="612.5" y1="90.0" x2="612.5" y2="91.7"/>
+<line class="err" x1="609.5" y1="90.0" x2="615.5" y2="90.0"/>
+<line class="err" x1="609.5" y1="91.7" x2="615.5" y2="91.7"/>
+<circle cx="612.5" cy="90.7" r="3.2" fill="#1769aa"/>
+<text x="612.5" y="368" text-anchor="middle" font-size="10">14</text>
+<line class="err" x1="649.5" y1="90.2" x2="649.5" y2="92.4"/>
+<line class="err" x1="646.5" y1="90.2" x2="652.5" y2="90.2"/>
+<line class="err" x1="646.5" y1="92.4" x2="652.5" y2="92.4"/>
+<circle cx="649.5" cy="91.3" r="3.2" fill="#1769aa"/>
+<line class="err" x1="686.4" y1="90.1" x2="686.4" y2="91.0"/>
+<line class="err" x1="683.4" y1="90.1" x2="689.4" y2="90.1"/>
+<line class="err" x1="683.4" y1="91.0" x2="689.4" y2="91.0"/>
+<circle cx="686.4" cy="90.5" r="3.2" fill="#1769aa"/>
+<text x="686.4" y="368" text-anchor="middle" font-size="10">16</text>
+<line class="err" x1="723.4" y1="90.0" x2="723.4" y2="91.4"/>
+<line class="err" x1="720.4" y1="90.0" x2="726.4" y2="90.0"/>
+<line class="err" x1="720.4" y1="91.4" x2="726.4" y2="91.4"/>
+<circle cx="723.4" cy="90.7" r="3.2" fill="#1769aa"/>
+<line class="err" x1="760.4" y1="90.0" x2="760.4" y2="90.9"/>
+<line class="err" x1="757.4" y1="90.0" x2="763.4" y2="90.0"/>
+<line class="err" x1="757.4" y1="90.9" x2="763.4" y2="90.9"/>
+<circle cx="760.4" cy="90.4" r="3.2" fill="#1769aa"/>
+<text x="760.4" y="368" text-anchor="middle" font-size="10">18</text>
+<line class="err" x1="797.3" y1="90.2" x2="797.3" y2="91.6"/>
+<line class="err" x1="794.3" y1="90.2" x2="800.3" y2="90.2"/>
+<line class="err" x1="794.3" y1="91.6" x2="800.3" y2="91.6"/>
+<circle cx="797.3" cy="90.9" r="3.2" fill="#1769aa"/>
+<line class="err" x1="834.3" y1="90.5" x2="834.3" y2="92.4"/>
+<line class="err" x1="831.3" y1="90.5" x2="837.3" y2="90.5"/>
+<line class="err" x1="831.3" y1="92.4" x2="837.3" y2="92.4"/>
+<circle cx="834.3" cy="91.4" r="3.2" fill="#1769aa"/>
+<text x="834.3" y="368" text-anchor="middle" font-size="10">20</text>
+<line class="err" x1="871.2" y1="90.2" x2="871.2" y2="91.6"/>
+<line class="err" x1="868.2" y1="90.2" x2="874.2" y2="90.2"/>
+<line class="err" x1="868.2" y1="91.6" x2="874.2" y2="91.6"/>
+<circle cx="871.2" cy="90.9" r="3.2" fill="#1769aa"/>
+<line class="err" x1="908.2" y1="90.2" x2="908.2" y2="91.6"/>
+<line class="err" x1="905.2" y1="90.2" x2="911.2" y2="90.2"/>
+<line class="err" x1="905.2" y1="91.6" x2="911.2" y2="91.6"/>
+<circle cx="908.2" cy="90.9" r="3.2" fill="#1769aa"/>
+<text x="908.2" y="368" text-anchor="middle" font-size="10">22</text>
+<line class="err" x1="945.2" y1="90.2" x2="945.2" y2="92.0"/>
+<line class="err" x1="942.2" y1="90.2" x2="948.2" y2="90.2"/>
+<line class="err" x1="942.2" y1="92.0" x2="948.2" y2="92.0"/>
+<circle cx="945.2" cy="91.1" r="3.2" fill="#1769aa"/>
+<line class="err" x1="982.1" y1="90.2" x2="982.1" y2="91.6"/>
+<line class="err" x1="979.1" y1="90.2" x2="985.1" y2="90.2"/>
+<line class="err" x1="979.1" y1="91.6" x2="985.1" y2="91.6"/>
+<circle cx="982.1" cy="90.9" r="3.2" fill="#1769aa"/>
+<text x="982.1" y="368" text-anchor="middle" font-size="10">24</text>
+<line class="err" x1="1019.1" y1="90.4" x2="1019.1" y2="91.4"/>
+<line class="err" x1="1016.1" y1="90.4" x2="1022.1" y2="90.4"/>
+<line class="err" x1="1016.1" y1="91.4" x2="1022.1" y2="91.4"/>
+<circle cx="1019.1" cy="90.9" r="3.2" fill="#1769aa"/>
+<line class="err" x1="1056.1" y1="90.6" x2="1056.1" y2="91.2"/>
+<line class="err" x1="1053.1" y1="90.6" x2="1059.1" y2="90.6"/>
+<line class="err" x1="1053.1" y1="91.2" x2="1059.1" y2="91.2"/>
+<circle cx="1056.1" cy="90.9" r="3.2" fill="#1769aa"/>
+<text x="1056.1" y="368" text-anchor="middle" font-size="10">26</text>
+<line class="err" x1="1093.0" y1="90.5" x2="1093.0" y2="91.0"/>
+<line class="err" x1="1090.0" y1="90.5" x2="1096.0" y2="90.5"/>
+<line class="err" x1="1090.0" y1="91.0" x2="1096.0" y2="91.0"/>
+<circle cx="1093.0" cy="90.7" r="3.2" fill="#1769aa"/>
+<line class="err" x1="1130.0" y1="90.1" x2="1130.0" y2="90.6"/>
+<line class="err" x1="1127.0" y1="90.1" x2="1133.0" y2="90.1"/>
+<line class="err" x1="1127.0" y1="90.6" x2="1133.0" y2="90.6"/>
+<circle cx="1130.0" cy="90.4" r="3.2" fill="#1769aa"/>
+<text x="1130.0" y="368" text-anchor="middle" font-size="10">28</text>
+<polyline class="score" points="95.0,263.3 132.0,90.4 168.9,90.7 205.9,90.5 242.9,90.0 279.8,90.2 316.8,90.4 353.8,91.3 390.7,91.1 427.7,91.8 464.6,90.4 501.6,90.5 538.6,90.2 575.5,90.7 612.5,90.7 649.5,91.3 686.4,90.5 723.4,90.7 760.4,90.4 797.3,90.9 834.3,91.4 871.2,90.9 908.2,90.9 945.2,91.1 982.1,90.9 1019.1,90.9 1056.1,90.9 1093.0,90.7 1130.0,90.4"/>
+<text x="600" y="388" text-anchor="middle" font-size="13">Hidden-state output (0 = embedding, 1–28 = transformer blocks)</text>
+<text x="600" y="396" text-anchor="middle" font-size="17">Macro-F1 by layer (mean +/- population SD)</text>
+<line class="grid" x1="95" y1="680.0" x2="1130" y2="680.0"/>
+<text x="81" y="685.0" text-anchor="end" font-size="12">0.0</text>
+<line class="grid" x1="95" y1="628.0" x2="1130" y2="628.0"/>
+<text x="81" y="633.0" text-anchor="end" font-size="12">0.2</text>
+<line class="grid" x1="95" y1="576.0" x2="1130" y2="576.0"/>
+<text x="81" y="581.0" text-anchor="end" font-size="12">0.4</text>
+<line class="grid" x1="95" y1="524.0" x2="1130" y2="524.0"/>
+<text x="81" y="529.0" text-anchor="end" font-size="12">0.6</text>
+<line class="grid" x1="95" y1="472.0" x2="1130" y2="472.0"/>
+<text x="81" y="477.0" text-anchor="end" font-size="12">0.8</text>
+<line class="grid" x1="95" y1="420.0" x2="1130" y2="420.0"/>
+<text x="81" y="425.0" text-anchor="end" font-size="12">1.0</text>
+<line class="axis" x1="95" y1="420" x2="95" y2="680"/>
+<line class="axis" x1="95" y1="680" x2="1130" y2="680"/>
+<line class="err" x1="95.0" y1="636.7" x2="95.0" y2="636.7"/>
+<line class="err" x1="92.0" y1="636.7" x2="98.0" y2="636.7"/>
+<line class="err" x1="92.0" y1="636.7" x2="98.0" y2="636.7"/>
+<circle cx="95.0" cy="636.7" r="3.2" fill="#1769aa"/>
+<text x="95.0" y="698" text-anchor="middle" font-size="10">0</text>
+<line class="err" x1="132.0" y1="420.0" x2="132.0" y2="420.9"/>
+<line class="err" x1="129.0" y1="420.0" x2="135.0" y2="420.0"/>
+<line class="err" x1="129.0" y1="420.9" x2="135.0" y2="420.9"/>
+<circle cx="132.0" cy="420.4" r="3.2" fill="#1769aa"/>
+<line class="err" x1="168.9" y1="420.0" x2="168.9" y2="421.4"/>
+<line class="err" x1="165.9" y1="420.0" x2="171.9" y2="420.0"/>
+<line class="err" x1="165.9" y1="421.4" x2="171.9" y2="421.4"/>
+<circle cx="168.9" cy="420.7" r="3.2" fill="#1769aa"/>
+<text x="168.9" y="698" text-anchor="middle" font-size="10">2</text>
+<line class="err" x1="205.9" y1="420.1" x2="205.9" y2="421.0"/>
+<line class="err" x1="202.9" y1="420.1" x2="208.9" y2="420.1"/>
+<line class="err" x1="202.9" y1="421.0" x2="208.9" y2="421.0"/>
+<circle cx="205.9" cy="420.5" r="3.2" fill="#1769aa"/>
+<line class="err" x1="242.9" y1="420.0" x2="242.9" y2="420.0"/>
+<line class="err" x1="239.9" y1="420.0" x2="245.9" y2="420.0"/>
+<line class="err" x1="239.9" y1="420.0" x2="245.9" y2="420.0"/>
+<circle cx="242.9" cy="420.0" r="3.2" fill="#1769aa"/>
+<text x="242.9" y="698" text-anchor="middle" font-size="10">4</text>
+<line class="err" x1="279.8" y1="420.0" x2="279.8" y2="420.4"/>
+<line class="err" x1="276.8" y1="420.0" x2="282.8" y2="420.0"/>
+<line class="err" x1="276.8" y1="420.4" x2="282.8" y2="420.4"/>
+<circle cx="279.8" cy="420.2" r="3.2" fill="#1769aa"/>
+<line class="err" x1="316.8" y1="420.0" x2="316.8" y2="420.9"/>
+<line class="err" x1="313.8" y1="420.0" x2="319.8" y2="420.0"/>
+<line class="err" x1="313.8" y1="420.9" x2="319.8" y2="420.9"/>
+<circle cx="316.8" cy="420.4" r="3.2" fill="#1769aa"/>
+<text x="316.8" y="698" text-anchor="middle" font-size="10">6</text>
+<line class="err" x1="353.8" y1="420.8" x2="353.8" y2="421.8"/>
+<line class="err" x1="350.8" y1="420.8" x2="356.8" y2="420.8"/>
+<line class="err" x1="350.8" y1="421.8" x2="356.8" y2="421.8"/>
+<circle cx="353.8" cy="421.3" r="3.2" fill="#1769aa"/>
+<line class="err" x1="390.7" y1="420.0" x2="390.7" y2="422.3"/>
+<line class="err" x1="387.7" y1="420.0" x2="393.7" y2="420.0"/>
+<line class="err" x1="387.7" y1="422.3" x2="393.7" y2="422.3"/>
+<circle cx="390.7" cy="421.1" r="3.2" fill="#1769aa"/>
+<text x="390.7" y="698" text-anchor="middle" font-size="10">8</text>
+<line class="err" x1="427.7" y1="421.1" x2="427.7" y2="422.5"/>
+<line class="err" x1="424.7" y1="421.1" x2="430.7" y2="421.1"/>
+<line class="err" x1="424.7" y1="422.5" x2="430.7" y2="422.5"/>
+<circle cx="427.7" cy="421.8" r="3.2" fill="#1769aa"/>
+<line class="err" x1="464.6" y1="420.1" x2="464.6" y2="420.6"/>
+<line class="err" x1="461.6" y1="420.1" x2="467.6" y2="420.1"/>
+<line class="err" x1="461.6" y1="420.6" x2="467.6" y2="420.6"/>
+<circle cx="464.6" cy="420.4" r="3.2" fill="#1769aa"/>
+<text x="464.6" y="698" text-anchor="middle" font-size="10">10</text>
+<line class="err" x1="501.6" y1="420.5" x2="501.6" y2="420.5"/>
+<line class="err" x1="498.6" y1="420.5" x2="504.6" y2="420.5"/>
+<line class="err" x1="498.6" y1="420.5" x2="504.6" y2="420.5"/>
+<circle cx="501.6" cy="420.5" r="3.2" fill="#1769aa"/>
+<line class="err" x1="538.6" y1="420.0" x2="538.6" y2="420.4"/>
+<line class="err" x1="535.6" y1="420.0" x2="541.6" y2="420.0"/>
+<line class="err" x1="535.6" y1="420.4" x2="541.6" y2="420.4"/>
+<circle cx="538.6" cy="420.2" r="3.2" fill="#1769aa"/>
+<text x="538.6" y="698" text-anchor="middle" font-size="10">12</text>
+<line class="err" x1="575.5" y1="420.5" x2="575.5" y2="421.0"/>
+<line class="err" x1="572.5" y1="420.5" x2="578.5" y2="420.5"/>
+<line class="err" x1="572.5" y1="421.0" x2="578.5" y2="421.0"/>
+<circle cx="575.5" cy="420.7" r="3.2" fill="#1769aa"/>
+<line class="err" x1="612.5" y1="420.0" x2="612.5" y2="421.7"/>
+<line class="err" x1="609.5" y1="420.0" x2="615.5" y2="420.0"/>
+<line class="err" x1="609.5" y1="421.7" x2="615.5" y2="421.7"/>
+<circle cx="612.5" cy="420.7" r="3.2" fill="#1769aa"/>
+<text x="612.5" y="698" text-anchor="middle" font-size="10">14</text>
+<line class="err" x1="649.5" y1="420.2" x2="649.5" y2="422.4"/>
+<line class="err" x1="646.5" y1="420.2" x2="652.5" y2="420.2"/>
+<line class="err" x1="646.5" y1="422.4" x2="652.5" y2="422.4"/>
+<circle cx="649.5" cy="421.3" r="3.2" fill="#1769aa"/>
+<line class="err" x1="686.4" y1="420.1" x2="686.4" y2="421.0"/>
+<line class="err" x1="683.4" y1="420.1" x2="689.4" y2="420.1"/>
+<line class="err" x1="683.4" y1="421.0" x2="689.4" y2="421.0"/>
+<circle cx="686.4" cy="420.5" r="3.2" fill="#1769aa"/>
+<text x="686.4" y="698" text-anchor="middle" font-size="10">16</text>
+<line class="err" x1="723.4" y1="420.0" x2="723.4" y2="421.4"/>
+<line class="err" x1="720.4" y1="420.0" x2="726.4" y2="420.0"/>
+<line class="err" x1="720.4" y1="421.4" x2="726.4" y2="421.4"/>
+<circle cx="723.4" cy="420.7" r="3.2" fill="#1769aa"/>
+<line class="err" x1="760.4" y1="420.0" x2="760.4" y2="420.9"/>
+<line class="err" x1="757.4" y1="420.0" x2="763.4" y2="420.0"/>
+<line class="err" x1="757.4" y1="420.9" x2="763.4" y2="420.9"/>
+<circle cx="760.4" cy="420.4" r="3.2" fill="#1769aa"/>
+<text x="760.4" y="698" text-anchor="middle" font-size="10">18</text>
+<line class="err" x1="797.3" y1="420.2" x2="797.3" y2="421.6"/>
+<line class="err" x1="794.3" y1="420.2" x2="800.3" y2="420.2"/>
+<line class="err" x1="794.3" y1="421.6" x2="800.3" y2="421.6"/>
+<circle cx="797.3" cy="420.9" r="3.2" fill="#1769aa"/>
+<line class="err" x1="834.3" y1="420.5" x2="834.3" y2="422.4"/>
+<line class="err" x1="831.3" y1="420.5" x2="837.3" y2="420.5"/>
+<line class="err" x1="831.3" y1="422.4" x2="837.3" y2="422.4"/>
+<circle cx="834.3" cy="421.4" r="3.2" fill="#1769aa"/>
+<text x="834.3" y="698" text-anchor="middle" font-size="10">20</text>
+<line class="err" x1="871.2" y1="420.2" x2="871.2" y2="421.6"/>
+<line class="err" x1="868.2" y1="420.2" x2="874.2" y2="420.2"/>
+<line class="err" x1="868.2" y1="421.6" x2="874.2" y2="421.6"/>
+<circle cx="871.2" cy="420.9" r="3.2" fill="#1769aa"/>
+<line class="err" x1="908.2" y1="420.2" x2="908.2" y2="421.6"/>
+<line class="err" x1="905.2" y1="420.2" x2="911.2" y2="420.2"/>
+<line class="err" x1="905.2" y1="421.6" x2="911.2" y2="421.6"/>
+<circle cx="908.2" cy="420.9" r="3.2" fill="#1769aa"/>
+<text x="908.2" y="698" text-anchor="middle" font-size="10">22</text>
+<line class="err" x1="945.2" y1="420.2" x2="945.2" y2="422.0"/>
+<line class="err" x1="942.2" y1="420.2" x2="948.2" y2="420.2"/>
+<line class="err" x1="942.2" y1="422.0" x2="948.2" y2="422.0"/>
+<circle cx="945.2" cy="421.1" r="3.2" fill="#1769aa"/>
+<line class="err" x1="982.1" y1="420.2" x2="982.1" y2="421.6"/>
+<line class="err" x1="979.1" y1="420.2" x2="985.1" y2="420.2"/>
+<line class="err" x1="979.1" y1="421.6" x2="985.1" y2="421.6"/>
+<circle cx="982.1" cy="420.9" r="3.2" fill="#1769aa"/>
+<text x="982.1" y="698" text-anchor="middle" font-size="10">24</text>
+<line class="err" x1="1019.1" y1="420.4" x2="1019.1" y2="421.4"/>
+<line class="err" x1="1016.1" y1="420.4" x2="1022.1" y2="420.4"/>
+<line class="err" x1="1016.1" y1="421.4" x2="1022.1" y2="421.4"/>
+<circle cx="1019.1" cy="420.9" r="3.2" fill="#1769aa"/>
+<line class="err" x1="1056.1" y1="420.6" x2="1056.1" y2="421.2"/>
+<line class="err" x1="1053.1" y1="420.6" x2="1059.1" y2="420.6"/>
+<line class="err" x1="1053.1" y1="421.2" x2="1059.1" y2="421.2"/>
+<circle cx="1056.1" cy="420.9" r="3.2" fill="#1769aa"/>
+<text x="1056.1" y="698" text-anchor="middle" font-size="10">26</text>
+<line class="err" x1="1093.0" y1="420.5" x2="1093.0" y2="421.0"/>
+<line class="err" x1="1090.0" y1="420.5" x2="1096.0" y2="420.5"/>
+<line class="err" x1="1090.0" y1="421.0" x2="1096.0" y2="421.0"/>
+<circle cx="1093.0" cy="420.7" r="3.2" fill="#1769aa"/>
+<line class="err" x1="1130.0" y1="420.1" x2="1130.0" y2="420.6"/>
+<line class="err" x1="1127.0" y1="420.1" x2="1133.0" y2="420.1"/>
+<line class="err" x1="1127.0" y1="420.6" x2="1133.0" y2="420.6"/>
+<circle cx="1130.0" cy="420.4" r="3.2" fill="#1769aa"/>
+<text x="1130.0" y="698" text-anchor="middle" font-size="10">28</text>
+<polyline class="score" points="95.0,636.7 132.0,420.4 168.9,420.7 205.9,420.5 242.9,420.0 279.8,420.2 316.8,420.4 353.8,421.3 390.7,421.1 427.7,421.8 464.6,420.4 501.6,420.5 538.6,420.2 575.5,420.7 612.5,420.7 649.5,421.3 686.4,420.5 723.4,420.7 760.4,420.4 797.3,420.9 834.3,421.4 871.2,420.9 908.2,420.9 945.2,421.1 982.1,420.9 1019.1,420.9 1056.1,420.9 1093.0,420.7 1130.0,420.4"/>
+<text x="600" y="718" text-anchor="middle" font-size="13">Hidden-state output (0 = embedding, 1–28 = transformer blocks)</text>
+<text x="18" y="380" transform="rotate(-90 18 380)" text-anchor="middle" font-size="13">Score</text>
+<text x="600" y="748" text-anchor="middle" font-size="11">Error bars show descriptive population SD over three overlapping frozen splits; they are not independent replications.</text>
+</svg>

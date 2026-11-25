@@ -1,0 +1,127 @@
+{
+  "experiment": "ADNN_RQ1_layerwise_linear_probe",
+  "status": "smoke_test",
+  "model_name": "Qwen2.5-1.5B-Instruct",
+  "model_path": "C:\\ADNN_MODELS\\Qwen2.5-1.5B-Instruct",
+  "model_config_sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+  "model_layers": 28,
+  "hidden_state_outputs": 29,
+  "hidden_size": 1536,
+  "input_fields": [
+    "environment",
+    "state_text",
+    "action_text"
+  ],
+  "input_format": "Environment / State / Candidate action; only approved projection values",
+  "dtype": "float16",
+  "device": "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "dataset_version": "irreversibility_dataset_v3",
+  "dataset_path": "dataset\\irreversibility_dataset_v3.jsonl",
+  "dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "split_seed": 20261120,
+  "split_metadata": {
+    "split_name": "split_seed_20261120",
+    "seed": 20261120,
+    "dataset_version": "irreversibility_dataset_v3",
+    "dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+    "generation_configuration": {
+      "algorithm": "scipy.optimize.milp",
+      "selection_unit": "canonical_group_id",
+      "group_order": "lexicographically sorted canonical_group_id",
+      "objective": "independent uniform random costs from numpy.random.default_rng(seed)",
+      "constraints": "exactly 40 test examples for each of 4 actions x 3 labels",
+      "integrality": "binary per group",
+      "seed": 20261120,
+      "numpy_version": "2.5.5",
+      "scipy_version": "1.18.1"
+    },
+    "training_counts": {
+      "total": 1920,
+      "class": {
+        "reversible": 640,
+        "partially_reversible": 640,
+        "irreversible": 640
+      },
+      "action": {
+        "edit_file": 480,
+        "delete_file": 480,
+        "send_email": 480,
+        "transfer_money": 480
+      },
+      "action_class": {
+        "edit_file": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "delete_file": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "send_email": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "transfer_money": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        }
+      }
+    },
+    "testing_counts": {
+      "total": 480,
+      "class": {
+        "reversible": 160,
+        "partially_reversible": 160,
+        "irreversible": 160
+      },
+      "action": {
+        "edit_file": 120,
+        "delete_file": 120,
+        "send_email": 120,
+        "transfer_money": 120
+      },
+      "action_class": {
+        "edit_file": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "delete_file": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "send_email": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "transfer_money": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        }
+      }
+    },
+    "training_group_count": 1361,
+    "testing_group_count": 303
+  },
+  "probe": {
+    "classifier": "sklearn LogisticRegression",
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "random_state": 20261120
+  },
+  "transformers_version": "5.24.1",
+  "torch_version": "2.14.1+cu130",
+  "cuda_version": "13.0",
+  "max_input_tokens": 768,
+  "shard_size": 8,
+  "subset_policy": "first train ID and first test ID in frozen ID order"
+}

@@ -1,0 +1,988 @@
+[
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.3333333333333333,
+    "balanced_accuracy": 0.3333333333333333,
+    "macro_precision": 0.1111111111111111,
+    "macro_recall": 0.3333333333333333,
+    "macro_f1": 0.16666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        160
+      ],
+      [
+        0,
+        0,
+        160
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 0,
+    "control": true,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 1,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 2,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 3,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 4,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 5,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 6,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        159,
+        1
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 7,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 8,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9958333333333333,
+    "balanced_accuracy": 0.9958333333333332,
+    "macro_precision": 0.9958847736625515,
+    "macro_recall": 0.9958333333333332,
+    "macro_f1": 0.9958331705665585,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        158,
+        2
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 9,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        159,
+        1
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 10,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        1,
+        159,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 11,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        159,
+        1
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 12,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        159,
+        1
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 13,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 14,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 15,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 16,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 17,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 18,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 19,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        1,
+        159,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 20,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 21,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 22,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 23,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 24,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        1,
+        0,
+        159
+      ]
+    ],
+    "layer": 25,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9958333333333333,
+    "balanced_accuracy": 0.9958333333333332,
+    "macro_precision": 0.9958847736625515,
+    "macro_recall": 0.9958333333333332,
+    "macro_f1": 0.9958331705665587,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        2,
+        0,
+        158
+      ]
+    ],
+    "layer": 26,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        160,
+        0
+      ],
+      [
+        1,
+        0,
+        159
+      ]
+    ],
+    "layer": 27,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  },
+  {
+    "count": 480,
+    "labels": [
+      "reversible",
+      "partially_reversible",
+      "irreversible"
+    ],
+    "accuracy": 0.9979166666666667,
+    "balanced_accuracy": 0.9979166666666667,
+    "macro_precision": 0.9979296066252589,
+    "macro_recall": 0.9979166666666667,
+    "macro_f1": 0.997916646321416,
+    "confusion_matrix": [
+      [
+        160,
+        0,
+        0
+      ],
+      [
+        0,
+        159,
+        1
+      ],
+      [
+        0,
+        0,
+        160
+      ]
+    ],
+    "layer": 28,
+    "control": false,
+    "train_examples": 1920,
+    "test_examples": 480
+  }
+]

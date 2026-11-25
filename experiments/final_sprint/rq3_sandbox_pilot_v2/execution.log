@@ -1,0 +1,10 @@
+2026-11-25T07:11:00.844963+00:00 RQ3 sandbox behavior pilot starting; 8 matched examples
+2026-11-25T07:11:11.724619+00:00 task 1/8 CH1_0085: decision=unparseable_output action_executed=True pre_checks=0
+2026-11-25T07:11:14.253111+00:00 task 2/8 CH1_0150: decision=unparseable_output action_executed=True pre_checks=0
+2026-11-25T07:11:15.206668+00:00 task 3/8 CH1_0101: decision=unparseable_output action_executed=True pre_checks=0
+2026-11-25T07:11:16.386746+00:00 task 4/8 CH1_0069: decision=unparseable_output action_executed=True pre_checks=0
+2026-11-25T07:11:19.230705+00:00 task 5/8 CH1_0010: decision=unparseable_output action_executed=False pre_checks=0
+2026-11-25T07:11:22.071661+00:00 task 6/8 CH1_0172: decision=unparseable_output action_executed=False pre_checks=0
+2026-11-25T07:11:23.527414+00:00 task 7/8 CH1_0053: decision=unparseable_output action_executed=True pre_checks=0
+2026-11-25T07:11:24.934047+00:00 task 8/8 CH1_0033: decision=unparseable_output action_executed=True pre_checks=0
+2026-11-25T07:11:24.988148+00:00 RQ3 pilot complete; full 60-task evaluation not claimed

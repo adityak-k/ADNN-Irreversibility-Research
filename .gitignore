@@ -1,0 +1,24 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript dependencies and generic build output
+node_modules/
+dist/
+build/
+
+# Incomplete submission preview/build artifacts
+submission/.build/
+
+# Local upload-preparation copy and its generated manifest
+.github_upload_preparation/
+# Original archive contains an unsanitized user-profile path; upload sanitized copy instead
+/verification_package.zip

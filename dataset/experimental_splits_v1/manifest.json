@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "dataset_path": "dataset/irreversibility_dataset_v3.jsonl",
+  "dataset_version": "irreversibility_dataset_v3",
+  "dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "seeds": [
+    20261120,
+    20261121,
+    20261122
+  ],
+  "split_directories": [
+    "split_seed_20261120",
+    "split_seed_20261121",
+    "split_seed_20261122"
+  ],
+  "split_algorithm": "Seeded SciPy MILP over canonical_group_id groups; exact 40 test rows per action/class cell."
+}

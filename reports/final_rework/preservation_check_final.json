@@ -1,0 +1,63 @@
+{
+  "protected_artifact_count_before_rework": 101,
+  "protected_artifacts_unchanged": 101,
+  "changed_protected_artifacts": [],
+  "missing_protected_artifacts": [],
+  "modified_sources": [
+    "dataset/generate_dataset.py",
+    "dataset/generate_verified_dataset.py",
+    "dataset/generate_verified_dataset_v3.py",
+    "dataset/generate_experimental_splits_v1.py",
+    "dataset/validate_experimental_splits_v1.py",
+    "dataset/validate_challenge_dataset_v1.py",
+    "experiments/run_baselines.py",
+    "requirements.txt",
+    "sandbox/environment.py"
+  ],
+  "source_backups": [
+    {
+      "path": "backups/final_rework_prechange/dataset/generate_dataset.py",
+      "sha256": "042472fb33365db7a745971c7f90e1a229f38e3b2759fceed81d61f155e37488"
+    },
+    {
+      "path": "backups/final_rework_prechange/dataset/generate_verified_dataset.py",
+      "sha256": "1c8f9e10ce765840601d23e2ea6e05d240d469bbb69e4838a46e2684fc26fb5e"
+    },
+    {
+      "path": "backups/final_rework_prechange/dataset/generate_verified_dataset_v3.py",
+      "sha256": "19aff8d1c63c392c34e0e9188e8d1b9852f541fbe193e73f8e72b3b8df27bb52"
+    },
+    {
+      "path": "backups/final_rework_prechange/dataset/generate_experimental_splits_v1.py",
+      "sha256": "6ad21b8060c818908715b3b5b71726e136ff724f044242c04b4f3e7c6f199de3"
+    },
+    {
+      "path": "backups/final_rework_prechange/dataset/validate_experimental_splits_v1.py",
+      "sha256": "2420cde88ff4cd62949897df878fbadefa942201991b99e36d8b3eda3419a29a"
+    },
+    {
+      "path": "backups/final_rework_prechange/dataset/validate_challenge_dataset_v1.py",
+      "sha256": "bef91da0e8859795b1cc3af26bebd385e9b32c51d9dd46fada70c5f4c7a7121b"
+    },
+    {
+      "path": "backups/final_rework_prechange/experiments/run_baselines.py",
+      "sha256": "66a49397104cf962b7caf7cc9ba1536ccc7fb405bad82850e36d76e037bb876f"
+    },
+    {
+      "path": "backups/final_rework_prechange/requirements.txt",
+      "sha256": "f368aa42534a3b422a6c0e49f7c61ed4edf399833c5d4470b1e86d24fa4ff978"
+    },
+    {
+      "path": "backups/final_rework_prechange/sandbox/environment.py",
+      "sha256": "85332f1d7d9d7c6c6a0f82c5cd0c9fea83ea505a4f6baeaf6c36b95ec0154c76"
+    }
+  ],
+  "missing_backups": [],
+  "dataset_hashes": {
+    "v3": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+    "challenge_v1": "2cc09123890b34ce9c1c9002fbc596ccb3f782bad5315208b3609c68181cef95",
+    "phase34_split_manifest": "eed7bcc8bb566d7d7929f96d9b217a62f795e2a9636e1797f5c8fe58846cd7e7",
+    "phase4_baselines_v1_manifest": "4b0cef2761cb5630da9e9964af498ddd4411f2b4e9c7050609932ff8054d49a0"
+  },
+  "passed": true
+}

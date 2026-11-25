@@ -1,0 +1,23 @@
+{
+  "output_directory": "results\\baselines_v2",
+  "v3_dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "challenge_dataset_sha256": "2cc09123890b34ce9c1c9002fbc596ccb3f782bad5315208b3609c68181cef95",
+  "run_count": 624,
+  "prediction_file_count": 624,
+  "shuffle_runs_per_split_and_evaluation": {
+    "20261120": {
+      "v3_test": 100,
+      "challenge_all_external": 100
+    },
+    "20261121": {
+      "v3_test": 100,
+      "challenge_all_external": 100
+    },
+    "20261122": {
+      "v3_test": 100,
+      "challenge_all_external": 100
+    }
+  },
+  "errors": [],
+  "passed": true
+}

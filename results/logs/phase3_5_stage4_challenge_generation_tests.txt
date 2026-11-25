@@ -1,0 +1,41 @@
+.\.venv\Scripts\python.exe : test_all_records_match_independent_reference_outcomes 
+(tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_all_records_match_independent_reference_outcomes) ... 
+ok
+At line:16 char:1
++ .\.venv\Scripts\python.exe -B -m unittest tests.test_phase35_challeng ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_all_record...utcomes) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_every_action_template_occurs_with_all_labels 
+(tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_every_action_template_occurs_with_all_labels) ... ok
+test_model_input_is_pre_action_whitelist_and_has_no_explicit_label_words (tests.test_phase35_challenge_dataset.Challeng
+eDatasetTests.test_model_input_is_pre_action_whitelist_and_has_no_explicit_label_words) ... FAIL
+test_pairs_change_only_the_recovery_condition 
+(tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_pairs_change_only_the_recovery_condition) ... ok
+test_size_balance_and_unique_ids 
+(tests.test_phase35_challenge_dataset.ChallengeDatasetTests.test_size_balance_and_unique_ids) ... ok
+
+======================================================================
+FAIL: test_model_input_is_pre_action_whitelist_and_has_no_explicit_label_words (tests.test_phase35_challenge_dataset.Ch
+allengeDatasetTests.test_model_input_is_pre_action_whitelist_and_has_no_explicit_label_words)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "%USERPROFILE%\ADNN_Irreversibility_Project\tests\test_phase35_challenge_dataset.py", line 74, in 
+test_model_input_is_pre_action_whitelist_and_has_no_explicit_label_words
+    self.assertEqual(tuple(row["model_input"]), MODEL_INPUT_FIELDS)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: ('action_text', 'environment', 'state_text') != ('environment', 'state_text', 
+'action_text')
+
+First differing element 0:
+'action_text'
+'environment'
+
+- ('action_text', 'environment', 'state_text')
++ ('environment', 'state_text', 'action_text')
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.038s
+
+FAILED (failures=1)

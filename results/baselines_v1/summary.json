@@ -1,0 +1,182 @@
+{
+  "v3_test": {
+    "majority": {
+      "accuracy": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "balanced_accuracy": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "macro_precision": {
+        "mean": 0.1111111111111111,
+        "standard_deviation": 0.0
+      },
+      "macro_recall": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "macro_f1": {
+        "mean": 0.16666666666666666,
+        "standard_deviation": 0.0
+      }
+    },
+    "action_name": {
+      "accuracy": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "balanced_accuracy": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "macro_precision": {
+        "mean": 0.1111111111111111,
+        "standard_deviation": 0.0
+      },
+      "macro_recall": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "macro_f1": {
+        "mean": 0.16666666666666666,
+        "standard_deviation": 0.0
+      }
+    },
+    "tfidf": {
+      "accuracy": {
+        "mean": 1.0,
+        "standard_deviation": 0.0
+      },
+      "balanced_accuracy": {
+        "mean": 1.0,
+        "standard_deviation": 0.0
+      },
+      "macro_precision": {
+        "mean": 1.0,
+        "standard_deviation": 0.0
+      },
+      "macro_recall": {
+        "mean": 1.0,
+        "standard_deviation": 0.0
+      },
+      "macro_f1": {
+        "mean": 1.0,
+        "standard_deviation": 0.0
+      }
+    },
+    "shuffled_label": {
+      "accuracy": {
+        "mean": 0.3236111111111111,
+        "standard_deviation": 0.03637722459363554
+      },
+      "balanced_accuracy": {
+        "mean": 0.3236111111111111,
+        "standard_deviation": 0.03637722459363554
+      },
+      "macro_precision": {
+        "mean": 0.323700074952133,
+        "standard_deviation": 0.03603930273919004
+      },
+      "macro_recall": {
+        "mean": 0.3236111111111111,
+        "standard_deviation": 0.03637722459363554
+      },
+      "macro_f1": {
+        "mean": 0.3232517759669631,
+        "standard_deviation": 0.03606189681458793
+      }
+    }
+  },
+  "challenge_all_external": {
+    "majority": {
+      "accuracy": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "balanced_accuracy": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "macro_precision": {
+        "mean": 0.1111111111111111,
+        "standard_deviation": 0.0
+      },
+      "macro_recall": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "macro_f1": {
+        "mean": 0.16666666666666666,
+        "standard_deviation": 0.0
+      }
+    },
+    "action_name": {
+      "accuracy": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "balanced_accuracy": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "macro_precision": {
+        "mean": 0.1111111111111111,
+        "standard_deviation": 0.0
+      },
+      "macro_recall": {
+        "mean": 0.3333333333333333,
+        "standard_deviation": 0.0
+      },
+      "macro_f1": {
+        "mean": 0.16666666666666666,
+        "standard_deviation": 0.0
+      }
+    },
+    "tfidf": {
+      "accuracy": {
+        "mean": 0.3763888888888889,
+        "standard_deviation": 0.003928371006591917
+      },
+      "balanced_accuracy": {
+        "mean": 0.3763888888888889,
+        "standard_deviation": 0.003928371006591917
+      },
+      "macro_precision": {
+        "mean": 0.416274602906769,
+        "standard_deviation": 0.006281852757453863
+      },
+      "macro_recall": {
+        "mean": 0.3763888888888889,
+        "standard_deviation": 0.003928371006591917
+      },
+      "macro_f1": {
+        "mean": 0.3457269207143512,
+        "standard_deviation": 0.004919660857171336
+      }
+    },
+    "shuffled_label": {
+      "accuracy": {
+        "mean": 0.3736111111111111,
+        "standard_deviation": 0.02050669869476863
+      },
+      "balanced_accuracy": {
+        "mean": 0.3736111111111111,
+        "standard_deviation": 0.020506698694768673
+      },
+      "macro_precision": {
+        "mean": 0.3896738751210492,
+        "standard_deviation": 0.028923477221066744
+      },
+      "macro_recall": {
+        "mean": 0.37361111111111106,
+        "standard_deviation": 0.02050669869476863
+      },
+      "macro_f1": {
+        "mean": 0.3678933205478471,
+        "standard_deviation": 0.01705205506552731
+      }
+    }
+  }
+}

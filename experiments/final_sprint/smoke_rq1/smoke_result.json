@@ -1,0 +1,22 @@
+{
+  "status": "smoke_pass_not_experiment",
+  "model": "Qwen2.5-1.5B-Instruct",
+  "dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "split_seed": 20261120,
+  "train_ids": [
+    "SBX3_000001"
+  ],
+  "test_ids": [
+    "SBX3_000003"
+  ],
+  "hidden_state_shape_per_example": [
+    29,
+    1536
+  ],
+  "hidden_state_dtype": "float16",
+  "input_fields": [
+    "environment",
+    "state_text",
+    "action_text"
+  ]
+}

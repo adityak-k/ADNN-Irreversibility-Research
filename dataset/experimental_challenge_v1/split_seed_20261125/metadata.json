@@ -1,0 +1,88 @@
+{
+  "split_name": "split_seed_20261125",
+  "seed": 20261125,
+  "dataset_version": "irreversibility_challenge_v1",
+  "dataset_sha256": "2cc09123890b34ce9c1c9002fbc596ccb3f782bad5315208b3609c68181cef95",
+  "generation_configuration": {
+    "algorithm": "stratified seeded shuffle of pair groups, then canonical-group assignment",
+    "selection_unit": "canonical_group_id; each group is verified to contain one matched pair",
+    "seed": 20261125,
+    "test_pairs_per_action_label_comparison": 2,
+    "expected_test_examples_per_action_class": 4,
+    "expected_train_examples_per_action_class": 16
+  },
+  "training_counts": {
+    "total": 192,
+    "class": {
+      "reversible": 64,
+      "partially_reversible": 64,
+      "irreversible": 64
+    },
+    "action": {
+      "edit_file": 48,
+      "delete_file": 48,
+      "send_email": 48,
+      "transfer_money": 48
+    },
+    "action_class": {
+      "edit_file": {
+        "reversible": 16,
+        "partially_reversible": 16,
+        "irreversible": 16
+      },
+      "delete_file": {
+        "reversible": 16,
+        "partially_reversible": 16,
+        "irreversible": 16
+      },
+      "send_email": {
+        "reversible": 16,
+        "partially_reversible": 16,
+        "irreversible": 16
+      },
+      "transfer_money": {
+        "reversible": 16,
+        "partially_reversible": 16,
+        "irreversible": 16
+      }
+    }
+  },
+  "testing_counts": {
+    "total": 48,
+    "class": {
+      "reversible": 16,
+      "partially_reversible": 16,
+      "irreversible": 16
+    },
+    "action": {
+      "edit_file": 12,
+      "delete_file": 12,
+      "send_email": 12,
+      "transfer_money": 12
+    },
+    "action_class": {
+      "edit_file": {
+        "reversible": 4,
+        "partially_reversible": 4,
+        "irreversible": 4
+      },
+      "delete_file": {
+        "reversible": 4,
+        "partially_reversible": 4,
+        "irreversible": 4
+      },
+      "send_email": {
+        "reversible": 4,
+        "partially_reversible": 4,
+        "irreversible": 4
+      },
+      "transfer_money": {
+        "reversible": 4,
+        "partially_reversible": 4,
+        "irreversible": 4
+      }
+    }
+  },
+  "training_group_count": 96,
+  "testing_group_count": 24
+}

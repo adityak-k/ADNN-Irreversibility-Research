@@ -1,0 +1,3698 @@
+[
+  {
+    "baseline": "majority",
+    "seed": 20261120,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "majority",
+    "seed": 20261120,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "action_name",
+    "seed": 20261120,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "action_name",
+    "seed": 20261120,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "tfidf",
+    "seed": 20261120,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          0,
+          160,
+          0
+        ],
+        [
+          0,
+          0,
+          160
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "partially_reversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "irreversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "tfidf",
+    "seed": 20261120,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.37916666666666665,
+      "balanced_accuracy": 0.37916666666666665,
+      "macro_precision": 0.4213608207510646,
+      "macro_recall": 0.37916666666666665,
+      "macro_f1": 0.34783571139445457,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          56,
+          15,
+          9
+        ],
+        [
+          50,
+          13,
+          17
+        ],
+        [
+          58,
+          0,
+          22
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.34146341463414637,
+          "recall": 0.7,
+          "f1": 0.45901639344262296
+        },
+        "partially_reversible": {
+          "precision": 0.4642857142857143,
+          "recall": 0.1625,
+          "f1": 0.24074074074074073
+        },
+        "irreversible": {
+          "precision": 0.4583333333333333,
+          "recall": 0.275,
+          "f1": 0.34375
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.36666666666666664,
+          "balanced_accuracy": 0.3666666666666667,
+          "macro_precision": 0.5839506172839507,
+          "macro_recall": 0.3666666666666667,
+          "macro_f1": 0.25625053625053623,
+          "confusion_matrix": [
+            [
+              19,
+              0,
+              1
+            ],
+            [
+              17,
+              1,
+              2
+            ],
+            [
+              18,
+              0,
+              2
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.3,
+          "balanced_accuracy": 0.3,
+          "macro_precision": 0.26785714285714285,
+          "macro_recall": 0.3,
+          "macro_f1": 0.17942583732057416,
+          "confusion_matrix": [
+            [
+              17,
+              1,
+              2
+            ],
+            [
+              19,
+              1,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.16260162601626016,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.2185792349726776,
+          "confusion_matrix": [
+            [
+              0,
+              14,
+              6
+            ],
+            [
+              5,
+              0,
+              15
+            ],
+            [
+              0,
+              0,
+              20
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.5166666666666667,
+          "balanced_accuracy": 0.5166666666666667,
+          "macro_precision": 0.46938775510204084,
+          "macro_recall": 0.5166666666666667,
+          "macro_f1": 0.4297958547607917,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              9,
+              11,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "shuffled_label",
+    "seed": 20261120,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.3,
+      "balanced_accuracy": 0.3,
+      "macro_precision": 0.2993715725565926,
+      "macro_recall": 0.3,
+      "macro_f1": 0.29931237962852913,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          46,
+          56,
+          58
+        ],
+        [
+          32,
+          61,
+          67
+        ],
+        [
+          68,
+          55,
+          37
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3150684931506849,
+          "recall": 0.2875,
+          "f1": 0.3006535947712418
+        },
+        "partially_reversible": {
+          "precision": 0.3546511627906977,
+          "recall": 0.38125,
+          "f1": 0.3674698795180723
+        },
+        "irreversible": {
+          "precision": 0.22839506172839505,
+          "recall": 0.23125,
+          "f1": 0.22981366459627328
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.24166666666666667,
+          "balanced_accuracy": 0.24166666666666667,
+          "macro_precision": 0.2244077480490524,
+          "macro_recall": 0.24166666666666667,
+          "macro_f1": 0.223015873015873,
+          "confusion_matrix": [
+            [
+              9,
+              26,
+              5
+            ],
+            [
+              8,
+              17,
+              15
+            ],
+            [
+              15,
+              22,
+              3
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.275,
+          "balanced_accuracy": 0.27499999999999997,
+          "macro_precision": 0.2841269841269842,
+          "macro_recall": 0.27499999999999997,
+          "macro_f1": 0.2686117451753476,
+          "confusion_matrix": [
+            [
+              13,
+              8,
+              19
+            ],
+            [
+              7,
+              6,
+              27
+            ],
+            [
+              19,
+              7,
+              14
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.39166666666666666,
+          "balanced_accuracy": 0.3916666666666666,
+          "macro_precision": 0.38849206349206344,
+          "macro_recall": 0.39166666666666666,
+          "macro_f1": 0.3893137254901961,
+          "confusion_matrix": [
+            [
+              15,
+              9,
+              16
+            ],
+            [
+              7,
+              23,
+              10
+            ],
+            [
+              23,
+              8,
+              9
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.2916666666666667,
+          "balanced_accuracy": 0.2916666666666667,
+          "macro_precision": 0.2920289855072464,
+          "macro_recall": 0.2916666666666667,
+          "macro_f1": 0.28929494278331486,
+          "confusion_matrix": [
+            [
+              9,
+              13,
+              18
+            ],
+            [
+              10,
+              15,
+              15
+            ],
+            [
+              11,
+              18,
+              11
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "shuffled_label",
+    "seed": 20261120,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.37083333333333335,
+      "balanced_accuracy": 0.37083333333333335,
+      "macro_precision": 0.3754381818897948,
+      "macro_recall": 0.37083333333333335,
+      "macro_f1": 0.37038779701119956,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          34,
+          31,
+          15
+        ],
+        [
+          30,
+          29,
+          21
+        ],
+        [
+          27,
+          27,
+          26
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.37362637362637363,
+          "recall": 0.425,
+          "f1": 0.39766081871345027
+        },
+        "partially_reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 0.3625,
+          "f1": 0.3473053892215569
+        },
+        "irreversible": {
+          "precision": 0.41935483870967744,
+          "recall": 0.325,
+          "f1": 0.36619718309859156
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.35,
+          "balanced_accuracy": 0.35000000000000003,
+          "macro_precision": 0.3912529550827423,
+          "macro_recall": 0.35000000000000003,
+          "macro_f1": 0.28372505289643735,
+          "confusion_matrix": [
+            [
+              2,
+              16,
+              2
+            ],
+            [
+              0,
+              16,
+              4
+            ],
+            [
+              2,
+              15,
+              3
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.31666666666666665,
+          "balanced_accuracy": 0.31666666666666665,
+          "macro_precision": 0.19471044231646148,
+          "macro_recall": 0.31666666666666665,
+          "macro_f1": 0.2308022308022308,
+          "confusion_matrix": [
+            [
+              0,
+              8,
+              12
+            ],
+            [
+              0,
+              4,
+              16
+            ],
+            [
+              0,
+              5,
+              15
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.38333333333333336,
+          "balanced_accuracy": 0.3833333333333333,
+          "macro_precision": 0.4502923976608187,
+          "macro_recall": 0.3833333333333333,
+          "macro_f1": 0.2601166948993036,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              17,
+              0,
+              3
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.43333333333333335,
+          "balanced_accuracy": 0.4333333333333333,
+          "macro_precision": 0.5018633540372671,
+          "macro_recall": 0.43333333333333335,
+          "macro_f1": 0.4229916738443871,
+          "confusion_matrix": [
+            [
+              12,
+              7,
+              1
+            ],
+            [
+              10,
+              9,
+              1
+            ],
+            [
+              8,
+              7,
+              5
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "majority",
+    "seed": 20261121,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "majority",
+    "seed": 20261121,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "action_name",
+    "seed": 20261121,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "action_name",
+    "seed": 20261121,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "tfidf",
+    "seed": 20261121,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          0,
+          160,
+          0
+        ],
+        [
+          0,
+          0,
+          160
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "partially_reversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "irreversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "tfidf",
+    "seed": 20261121,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.37083333333333335,
+      "balanced_accuracy": 0.37083333333333335,
+      "macro_precision": 0.4074235385210995,
+      "macro_recall": 0.37083333333333335,
+      "macro_f1": 0.3389306314511233,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          55,
+          16,
+          9
+        ],
+        [
+          51,
+          12,
+          17
+        ],
+        [
+          58,
+          0,
+          22
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3353658536585366,
+          "recall": 0.6875,
+          "f1": 0.45081967213114754
+        },
+        "partially_reversible": {
+          "precision": 0.42857142857142855,
+          "recall": 0.15,
+          "f1": 0.2222222222222222
+        },
+        "irreversible": {
+          "precision": 0.4583333333333333,
+          "recall": 0.275,
+          "f1": 0.34375
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.36666666666666664,
+          "balanced_accuracy": 0.3666666666666667,
+          "macro_precision": 0.5839506172839507,
+          "macro_recall": 0.3666666666666667,
+          "macro_f1": 0.25625053625053623,
+          "confusion_matrix": [
+            [
+              19,
+              0,
+              1
+            ],
+            [
+              17,
+              1,
+              2
+            ],
+            [
+              18,
+              0,
+              2
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.2833333333333333,
+          "balanced_accuracy": 0.2833333333333334,
+          "macro_precision": 0.2636363636363636,
+          "macro_recall": 0.2833333333333334,
+          "macro_f1": 0.17252525252525253,
+          "confusion_matrix": [
+            [
+              16,
+              1,
+              3
+            ],
+            [
+              19,
+              1,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.16666666666666666,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.2222222222222222,
+          "confusion_matrix": [
+            [
+              0,
+              15,
+              5
+            ],
+            [
+              5,
+              0,
+              15
+            ],
+            [
+              0,
+              0,
+              20
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.5,
+          "balanced_accuracy": 0.5,
+          "macro_precision": 0.4666666666666666,
+          "macro_recall": 0.5,
+          "macro_f1": 0.41269841269841273,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              10,
+              10,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "shuffled_label",
+    "seed": 20261121,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.29583333333333334,
+      "balanced_accuracy": 0.29583333333333334,
+      "macro_precision": 0.2970785041103598,
+      "macro_recall": 0.29583333333333334,
+      "macro_f1": 0.2962231462231462,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          46,
+          55,
+          59
+        ],
+        [
+          65,
+          49,
+          46
+        ],
+        [
+          62,
+          51,
+          47
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.2658959537572254,
+          "recall": 0.2875,
+          "f1": 0.27627627627627627
+        },
+        "partially_reversible": {
+          "precision": 0.3161290322580645,
+          "recall": 0.30625,
+          "f1": 0.3111111111111111
+        },
+        "irreversible": {
+          "precision": 0.3092105263157895,
+          "recall": 0.29375,
+          "f1": 0.30128205128205127
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.30833333333333335,
+          "balanced_accuracy": 0.30833333333333335,
+          "macro_precision": 0.3070588930238053,
+          "macro_recall": 0.30833333333333335,
+          "macro_f1": 0.30146433822788893,
+          "confusion_matrix": [
+            [
+              8,
+              21,
+              11
+            ],
+            [
+              8,
+              17,
+              15
+            ],
+            [
+              11,
+              17,
+              12
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.35,
+          "balanced_accuracy": 0.35000000000000003,
+          "macro_precision": 0.3566241311339351,
+          "macro_recall": 0.35000000000000003,
+          "macro_f1": 0.34701192509710893,
+          "confusion_matrix": [
+            [
+              18,
+              12,
+              10
+            ],
+            [
+              21,
+              13,
+              6
+            ],
+            [
+              12,
+              17,
+              11
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.275,
+          "balanced_accuracy": 0.27499999999999997,
+          "macro_precision": 0.3106060606060606,
+          "macro_recall": 0.27499999999999997,
+          "macro_f1": 0.2826949620427881,
+          "confusion_matrix": [
+            [
+              8,
+              6,
+              26
+            ],
+            [
+              15,
+              12,
+              13
+            ],
+            [
+              21,
+              6,
+              13
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.25,
+          "balanced_accuracy": 0.25,
+          "macro_precision": 0.2518207282913165,
+          "macro_recall": 0.25,
+          "macro_f1": 0.24875292875292876,
+          "confusion_matrix": [
+            [
+              12,
+              16,
+              12
+            ],
+            [
+              21,
+              7,
+              12
+            ],
+            [
+              18,
+              11,
+              11
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "shuffled_label",
+    "seed": 20261121,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.4,
+      "balanced_accuracy": 0.4000000000000001,
+      "macro_precision": 0.4300010589854919,
+      "macro_recall": 0.39999999999999997,
+      "macro_f1": 0.3874184693556278,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          18,
+          46,
+          16
+        ],
+        [
+          9,
+          47,
+          24
+        ],
+        [
+          9,
+          40,
+          31
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.5,
+          "recall": 0.225,
+          "f1": 0.3103448275862069
+        },
+        "partially_reversible": {
+          "precision": 0.3533834586466165,
+          "recall": 0.5875,
+          "f1": 0.4413145539906103
+        },
+        "irreversible": {
+          "precision": 0.43661971830985913,
+          "recall": 0.3875,
+          "f1": 0.4105960264900662
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.4,
+          "balanced_accuracy": 0.39999999999999997,
+          "macro_precision": 0.3277674706246135,
+          "macro_recall": 0.39999999999999997,
+          "macro_f1": 0.31478884213807073,
+          "confusion_matrix": [
+            [
+              7,
+              13,
+              0
+            ],
+            [
+              3,
+              17,
+              0
+            ],
+            [
+              1,
+              19,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.43333333333333335,
+          "balanced_accuracy": 0.43333333333333335,
+          "macro_precision": 0.6223832528180354,
+          "macro_recall": 0.43333333333333335,
+          "macro_f1": 0.3689553340716132,
+          "confusion_matrix": [
+            [
+              11,
+              9,
+              0
+            ],
+            [
+              6,
+              14,
+              0
+            ],
+            [
+              6,
+              13,
+              1
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.36666666666666664,
+          "balanced_accuracy": 0.3666666666666667,
+          "macro_precision": 0.21153846153846154,
+          "macro_recall": 0.3666666666666667,
+          "macro_f1": 0.2328042328042328,
+          "confusion_matrix": [
+            [
+              0,
+              6,
+              14
+            ],
+            [
+              0,
+              2,
+              18
+            ],
+            [
+              0,
+              0,
+              20
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.4,
+          "balanced_accuracy": 0.39999999999999997,
+          "macro_precision": 0.30185185185185187,
+          "macro_recall": 0.39999999999999997,
+          "macro_f1": 0.3309941520467836,
+          "confusion_matrix": [
+            [
+              0,
+              18,
+              2
+            ],
+            [
+              0,
+              14,
+              6
+            ],
+            [
+              2,
+              8,
+              10
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "majority",
+    "seed": 20261122,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "majority",
+    "seed": 20261122,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "action_name",
+    "seed": 20261122,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          160,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "action_name",
+    "seed": 20261122,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_precision": 0.1111111111111111,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ],
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "partially_reversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "irreversible": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.3333333333333333,
+          "balanced_accuracy": 0.3333333333333333,
+          "macro_precision": 0.1111111111111111,
+          "macro_recall": 0.3333333333333333,
+          "macro_f1": 0.16666666666666666,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "tfidf",
+    "seed": 20261122,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          0,
+          0
+        ],
+        [
+          0,
+          160,
+          0
+        ],
+        [
+          0,
+          0,
+          160
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "partially_reversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "irreversible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "confusion_matrix": [
+            [
+              40,
+              0,
+              0
+            ],
+            [
+              0,
+              40,
+              0
+            ],
+            [
+              0,
+              0,
+              40
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "tfidf",
+    "seed": 20261122,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.37916666666666665,
+      "balanced_accuracy": 0.37916666666666665,
+      "macro_precision": 0.4200394494481428,
+      "macro_recall": 0.37916666666666665,
+      "macro_f1": 0.35041441929747563,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          55,
+          17,
+          8
+        ],
+        [
+          51,
+          13,
+          16
+        ],
+        [
+          57,
+          0,
+          23
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3374233128834356,
+          "recall": 0.6875,
+          "f1": 0.45267489711934156
+        },
+        "partially_reversible": {
+          "precision": 0.43333333333333335,
+          "recall": 0.1625,
+          "f1": 0.23636363636363636
+        },
+        "irreversible": {
+          "precision": 0.48936170212765956,
+          "recall": 0.2875,
+          "f1": 0.36220472440944884
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.38333333333333336,
+          "balanced_accuracy": 0.3833333333333333,
+          "macro_precision": 0.6194968553459119,
+          "macro_recall": 0.3833333333333333,
+          "macro_f1": 0.2821850904042685,
+          "confusion_matrix": [
+            [
+              19,
+              0,
+              1
+            ],
+            [
+              17,
+              1,
+              2
+            ],
+            [
+              17,
+              0,
+              3
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.2833333333333333,
+          "balanced_accuracy": 0.2833333333333334,
+          "macro_precision": 0.2636363636363636,
+          "macro_recall": 0.2833333333333334,
+          "macro_f1": 0.17252525252525253,
+          "confusion_matrix": [
+            [
+              16,
+              1,
+              3
+            ],
+            [
+              19,
+              1,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.35,
+          "balanced_accuracy": 0.35000000000000003,
+          "macro_precision": 0.19504643962848298,
+          "macro_recall": 0.35000000000000003,
+          "macro_f1": 0.2479030754892824,
+          "confusion_matrix": [
+            [
+              0,
+              16,
+              4
+            ],
+            [
+              5,
+              1,
+              14
+            ],
+            [
+              0,
+              0,
+              20
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.5,
+          "balanced_accuracy": 0.5,
+          "macro_precision": 0.4666666666666666,
+          "macro_recall": 0.5,
+          "macro_f1": 0.41269841269841273,
+          "confusion_matrix": [
+            [
+              20,
+              0,
+              0
+            ],
+            [
+              10,
+              10,
+              0
+            ],
+            [
+              20,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "shuffled_label",
+    "seed": 20261122,
+    "evaluation": "v3_test",
+    "metrics": {
+      "count": 480,
+      "accuracy": 0.375,
+      "balanced_accuracy": 0.375,
+      "macro_precision": 0.3746501481894465,
+      "macro_recall": 0.375,
+      "macro_f1": 0.37421980204921385,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          57,
+          66,
+          37
+        ],
+        [
+          38,
+          68,
+          54
+        ],
+        [
+          62,
+          43,
+          55
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.3630573248407643,
+          "recall": 0.35625,
+          "f1": 0.35962145110410093
+        },
+        "partially_reversible": {
+          "precision": 0.384180790960452,
+          "recall": 0.425,
+          "f1": 0.4035608308605341
+        },
+        "irreversible": {
+          "precision": 0.3767123287671233,
+          "recall": 0.34375,
+          "f1": 0.35947712418300654
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 120,
+          "accuracy": 0.45,
+          "balanced_accuracy": 0.45,
+          "macro_precision": 0.4315355696934644,
+          "macro_recall": 0.45,
+          "macro_f1": 0.4323523698523699,
+          "confusion_matrix": [
+            [
+              22,
+              13,
+              5
+            ],
+            [
+              7,
+              7,
+              26
+            ],
+            [
+              9,
+              6,
+              25
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 120,
+          "accuracy": 0.38333333333333336,
+          "balanced_accuracy": 0.3833333333333333,
+          "macro_precision": 0.3438476840011367,
+          "macro_recall": 0.3833333333333333,
+          "macro_f1": 0.3517184233660151,
+          "confusion_matrix": [
+            [
+              19,
+              14,
+              7
+            ],
+            [
+              9,
+              24,
+              7
+            ],
+            [
+              29,
+              8,
+              3
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 120,
+          "accuracy": 0.31666666666666665,
+          "balanced_accuracy": 0.31666666666666665,
+          "macro_precision": 0.32074013456992184,
+          "macro_recall": 0.3166666666666667,
+          "macro_f1": 0.3078037483990245,
+          "confusion_matrix": [
+            [
+              7,
+              16,
+              17
+            ],
+            [
+              11,
+              15,
+              14
+            ],
+            [
+              3,
+              21,
+              16
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 120,
+          "accuracy": 0.35,
+          "balanced_accuracy": 0.35000000000000003,
+          "macro_precision": 0.3525611526071719,
+          "macro_recall": 0.35000000000000003,
+          "macro_f1": 0.3428912783751494,
+          "confusion_matrix": [
+            [
+              9,
+              23,
+              8
+            ],
+            [
+              11,
+              22,
+              7
+            ],
+            [
+              21,
+              8,
+              11
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "baseline": "shuffled_label",
+    "seed": 20261122,
+    "evaluation": "challenge_all_external",
+    "metrics": {
+      "count": 240,
+      "accuracy": 0.35,
+      "balanced_accuracy": 0.3499999999999999,
+      "macro_precision": 0.36358238448786095,
+      "macro_recall": 0.3499999999999999,
+      "macro_f1": 0.3458736952767139,
+      "labels": [
+        "reversible",
+        "partially_reversible",
+        "irreversible"
+      ],
+      "confusion_matrix": [
+        [
+          33,
+          8,
+          39
+        ],
+        [
+          21,
+          18,
+          41
+        ],
+        [
+          27,
+          20,
+          33
+        ]
+      ],
+      "per_class": {
+        "reversible": {
+          "precision": 0.4074074074074074,
+          "recall": 0.4125,
+          "f1": 0.40993788819875776
+        },
+        "partially_reversible": {
+          "precision": 0.391304347826087,
+          "recall": 0.225,
+          "f1": 0.2857142857142857
+        },
+        "irreversible": {
+          "precision": 0.2920353982300885,
+          "recall": 0.4125,
+          "f1": 0.34196891191709844
+        }
+      },
+      "per_action": {
+        "delete_file": {
+          "count": 60,
+          "accuracy": 0.3,
+          "balanced_accuracy": 0.3,
+          "macro_precision": 0.2977034785545424,
+          "macro_recall": 0.3,
+          "macro_f1": 0.23901858230216436,
+          "confusion_matrix": [
+            [
+              1,
+              2,
+              17
+            ],
+            [
+              1,
+              3,
+              16
+            ],
+            [
+              4,
+              2,
+              14
+            ]
+          ]
+        },
+        "edit_file": {
+          "count": 60,
+          "accuracy": 0.31666666666666665,
+          "balanced_accuracy": 0.31666666666666665,
+          "macro_precision": 0.33431372549019606,
+          "macro_recall": 0.31666666666666665,
+          "macro_f1": 0.3196160446160446,
+          "confusion_matrix": [
+            [
+              6,
+              3,
+              11
+            ],
+            [
+              4,
+              6,
+              10
+            ],
+            [
+              7,
+              6,
+              7
+            ]
+          ]
+        },
+        "send_email": {
+          "count": 60,
+          "accuracy": 0.35,
+          "balanced_accuracy": 0.35000000000000003,
+          "macro_precision": 0.2416267942583732,
+          "macro_recall": 0.35000000000000003,
+          "macro_f1": 0.28078817733990147,
+          "confusion_matrix": [
+            [
+              9,
+              0,
+              11
+            ],
+            [
+              5,
+              0,
+              15
+            ],
+            [
+              8,
+              0,
+              12
+            ]
+          ]
+        },
+        "transfer_money": {
+          "count": 60,
+          "accuracy": 0.43333333333333335,
+          "balanced_accuracy": 0.43333333333333335,
+          "macro_precision": 0.2824074074074074,
+          "macro_recall": 0.43333333333333335,
+          "macro_f1": 0.33874458874458874,
+          "confusion_matrix": [
+            [
+              17,
+              3,
+              0
+            ],
+            [
+              11,
+              9,
+              0
+            ],
+            [
+              8,
+              12,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  }
+]

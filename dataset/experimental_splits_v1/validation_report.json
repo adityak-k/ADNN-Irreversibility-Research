@@ -1,0 +1,195 @@
+{
+  "dataset_path": "dataset/irreversibility_dataset_v3.jsonl",
+  "dataset_version": "irreversibility_dataset_v3",
+  "dataset_sha256": "a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026",
+  "rows": 2400,
+  "numpy_version": "2.5.5",
+  "scipy_version": "1.18.1",
+  "splits": [
+    {
+      "split": "split_seed_20261120",
+      "seed": 20261120,
+      "passed": true,
+      "errors": [],
+      "train_examples": 1920,
+      "test_examples": 480,
+      "train_groups": 1361,
+      "test_groups": 303,
+      "train_action_class": {
+        "edit_file": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "delete_file": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "send_email": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "transfer_money": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        }
+      },
+      "test_action_class": {
+        "edit_file": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "delete_file": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "send_email": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "transfer_money": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        }
+      },
+      "leakage_checks": {
+        "canonical_group_crossings": 0,
+        "scenario_group_crossings": 0,
+        "input_group_crossings": 0,
+        "matched_pair_crossings": 0
+      },
+      "reproducibility_check": "passed"
+    },
+    {
+      "split": "split_seed_20261121",
+      "seed": 20261121,
+      "passed": true,
+      "errors": [],
+      "train_examples": 1920,
+      "test_examples": 480,
+      "train_groups": 1370,
+      "test_groups": 294,
+      "train_action_class": {
+        "edit_file": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "delete_file": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "send_email": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "transfer_money": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        }
+      },
+      "test_action_class": {
+        "edit_file": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "delete_file": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "send_email": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "transfer_money": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        }
+      },
+      "leakage_checks": {
+        "canonical_group_crossings": 0,
+        "scenario_group_crossings": 0,
+        "input_group_crossings": 0,
+        "matched_pair_crossings": 0
+      },
+      "reproducibility_check": "passed"
+    },
+    {
+      "split": "split_seed_20261122",
+      "seed": 20261122,
+      "passed": true,
+      "errors": [],
+      "train_examples": 1920,
+      "test_examples": 480,
+      "train_groups": 1370,
+      "test_groups": 294,
+      "train_action_class": {
+        "edit_file": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "delete_file": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "send_email": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        },
+        "transfer_money": {
+          "reversible": 160,
+          "partially_reversible": 160,
+          "irreversible": 160
+        }
+      },
+      "test_action_class": {
+        "edit_file": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "delete_file": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "send_email": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        },
+        "transfer_money": {
+          "reversible": 40,
+          "partially_reversible": 40,
+          "irreversible": 40
+        }
+      },
+      "leakage_checks": {
+        "canonical_group_crossings": 0,
+        "scenario_group_crossings": 0,
+        "input_group_crossings": 0,
+        "matched_pair_crossings": 0
+      },
+      "reproducibility_check": "passed"
+    }
+  ],
+  "passed": true,
+  "errors": []
+}

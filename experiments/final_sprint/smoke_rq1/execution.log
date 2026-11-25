@@ -1,0 +1,9 @@
+2026-11-25T06:44:54.576788+00:00 starting smoke run; dataset rows=2400 train=1 test=1
+2026-11-25T06:44:54.579137+00:00 v3 dataset sha256=a7094909662c3158372fd66b8f04abd67311af0c6466978024c475f38848c026; split seed=20261120
+2026-11-25T06:45:01.919601+00:00 loaded local model on NVIDIA GeForce RTX 5050 Laptop GPU with fp16 weights
+2026-11-25T06:45:01.928829+00:00 train: 0/1 valid saved rows; 1 to extract
+2026-11-25T06:45:02.470152+00:00 saved smoke_rq1\representations\train\train_00000.npz with 1 rows
+2026-11-25T06:45:02.473161+00:00 test: 0/1 valid saved rows; 1 to extract
+2026-11-25T06:45:02.555862+00:00 saved smoke_rq1\representations\test\test_00000.npz with 1 rows
+2026-11-25T06:45:02.558952+00:00 all requested representations ready: train=1 test=1 layers=29
+2026-11-25T06:45:02.560748+00:00 SMOKE PASS: real 29-output fp16 hidden states saved; no probe metrics claimed

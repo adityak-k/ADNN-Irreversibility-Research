@@ -1,0 +1,95 @@
+{
+  "dataset": "irreversibility_challenge_v1.jsonl",
+  "dataset_sha256": "2cc09123890b34ce9c1c9002fbc596ccb3f782bad5315208b3609c68181cef95",
+  "examples": 240,
+  "action_class_counts": {
+    "edit_file": {
+      "reversible": 20,
+      "partially_reversible": 20,
+      "irreversible": 20
+    },
+    "delete_file": {
+      "reversible": 20,
+      "partially_reversible": 20,
+      "irreversible": 20
+    },
+    "send_email": {
+      "reversible": 20,
+      "partially_reversible": 20,
+      "irreversible": 20
+    },
+    "transfer_money": {
+      "reversible": 20,
+      "partially_reversible": 20,
+      "irreversible": 20
+    }
+  },
+  "pairs": 120,
+  "pair_combinations": {
+    "partially_reversible / irreversible": 40,
+    "reversible / partially_reversible": 40,
+    "reversible / irreversible": 40
+  },
+  "independent_reference_outcomes_checked": 240,
+  "recomputed_group_ids": 240,
+  "split": {
+    "seed": 20261125,
+    "train_examples": 192,
+    "test_examples": 48,
+    "train_groups": 96,
+    "test_groups": 24,
+    "train_action_class": {
+      "edit_file": {
+        "reversible": 16,
+        "partially_reversible": 16,
+        "irreversible": 16
+      },
+      "delete_file": {
+        "reversible": 16,
+        "partially_reversible": 16,
+        "irreversible": 16
+      },
+      "send_email": {
+        "reversible": 16,
+        "partially_reversible": 16,
+        "irreversible": 16
+      },
+      "transfer_money": {
+        "reversible": 16,
+        "partially_reversible": 16,
+        "irreversible": 16
+      }
+    },
+    "test_action_class": {
+      "edit_file": {
+        "reversible": 4,
+        "partially_reversible": 4,
+        "irreversible": 4
+      },
+      "delete_file": {
+        "reversible": 4,
+        "partially_reversible": 4,
+        "irreversible": 4
+      },
+      "send_email": {
+        "reversible": 4,
+        "partially_reversible": 4,
+        "irreversible": 4
+      },
+      "transfer_money": {
+        "reversible": 4,
+        "partially_reversible": 4,
+        "irreversible": 4
+      }
+    },
+    "test_group_replay": true,
+    "crossings": {
+      "canonical_group_id": 0,
+      "scenario_group_id": 0,
+      "input_group_id": 0,
+      "pair_id": 0
+    }
+  },
+  "passed": true,
+  "errors": []
+}

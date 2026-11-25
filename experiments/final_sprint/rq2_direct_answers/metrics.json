@@ -1,0 +1,51 @@
+{
+  "count": 120,
+  "valid_parse_count": 120,
+  "accuracy": 0.4166666666666667,
+  "macro_f1": 0.33373477853606315,
+  "macro_precision": 0.27946127946127947,
+  "macro_recall": 0.4166666666666667,
+  "confusion_matrix_labels": [
+    "reversible",
+    "partially_reversible",
+    "irreversible",
+    "unparsed"
+  ],
+  "confusion_matrix": [
+    [
+      24,
+      0,
+      16,
+      0
+    ],
+    [
+      16,
+      0,
+      24,
+      0
+    ],
+    [
+      14,
+      0,
+      26,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "class_counts": {
+    "reversible": 40,
+    "partially_reversible": 40,
+    "irreversible": 40
+  },
+  "same_subset_layer28_probe": {
+    "count": 120,
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "same_subset_direct_vs_probe_agreement": 0.4166666666666667
+}
